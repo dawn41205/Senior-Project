@@ -1,0 +1,89 @@
+{
+  "model_name": "ckiplab/bert-base-chinese",
+  "max_len": 512,
+  "bert_dim": 768,
+  "extra_feature_dim": 4,
+  "combined_dim": 772,
+  "dropout": 0.2,
+  "batch_size": 8,
+  "epochs": 10,
+  "learning_rate": 2e-05,
+  "optimizer": "AdamW",
+  "scheduler": "cosine_with_warmup",
+  "warmup_ratio": 0.1,
+  "gradient_clip": 1.0,
+  "seed": 42,
+  "focal_loss": {
+    "gamma": 2,
+    "alpha_weighting": true
+  },
+  "rdrop": {
+    "alpha": 2
+  },
+  "contrastive_learning": {
+    "lambda": 0.1,
+    "margin": 0.5
+  },
+  "eval_fields": {
+    "promise_status": [
+      "Yes",
+      "No"
+    ],
+    "verification_timeline": [
+      "already",
+      "within_2_years",
+      "between_2_and_5_years",
+      "longer_than_5_years",
+      "N/A"
+    ],
+    "evidence_status": [
+      "Yes",
+      "No",
+      "N/A"
+    ],
+    "evidence_quality": [
+      "Clear",
+      "Not Clear",
+      "Misleading",
+      "N/A"
+    ]
+  },
+  "field_weights": {
+    "promise_status": 0.2,
+    "evidence_status": 0.3,
+    "evidence_quality": 0.35,
+    "verification_timeline": 0.15
+  },
+  "num_labels": {
+    "promise_status": 2,
+    "verification_timeline": 5,
+    "evidence_status": 3,
+    "evidence_quality": 4
+  },
+  "ckip": {
+    "model": "albert-base",
+    "device": 0,
+    "keep_pos": [
+      "N",
+      "V"
+    ]
+  },
+  "tfidf": {
+    "max_features": 5000
+  },
+  "semantic_classes": {
+    "promise": 0,
+    "evidence": 1,
+    "quality_score": 2,
+    "timeline_score": 3
+  },
+  "keywords_lib_keys": [
+    "T1",
+    "T2_T3",
+    "T4"
+  ],
+  "post_processing_rules": [
+    "No promise => set all others to N/A",
+    "No evidence => evidence_quality = N/A"
+  ]
+}
