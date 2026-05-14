@@ -24,7 +24,7 @@ EVAL_FIELDS = {
         "already",
         "within_2_years",
         "between_2_and_5_years",
-        "longer_than_5_years",
+        "more_than_5_years",
         "N/A"
     ],
     "evidence_status": ["Yes", "No", "N/A"],
