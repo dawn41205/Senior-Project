@@ -1,0 +1,27 @@
+{
+  "split": "week12_2",
+  "created_at": "2026-05-16T13:12:29",
+  "pipeline": "formal-safe current architecture with parserfix",
+  "prediction_json": "LLM_pipeline_pred_week12_2.json",
+  "prediction_csv": "LLM_pipeline_pred_week12_2.csv",
+  "weighted_score": 0.7294001339976592,
+  "field_scores": {
+    "promise_status": 0.9163847820303295,
+    "verification_timeline": 0.5858182198417585,
+    "evidence_status": 0.9408978959397598,
+    "evidence_quality": 0.5028030738097191
+  },
+  "weights": {
+    "promise_status": 0.2,
+    "verification_timeline": 0.15,
+    "evidence_status": 0.3,
+    "evidence_quality": 0.35
+  },
+  "validation_rows": 200,
+  "train_rows": 800,
+  "notes": [
+    "RAG index was rebuilt from this split's train_grouped.json only.",
+    "Validation inference input kept formal-safe fields only: id/data/pdf_url/URL/page_number/gemini_extracted_text.",
+    "Existing local BERT PS/ES checkpoints were used; this runner does not retrain BERT per split."
+  ]
+}
