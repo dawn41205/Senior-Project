@@ -25,10 +25,10 @@ EVAL_FIELDS = {
         "within_2_years",
         "between_2_and_5_years",
         "more_than_5_years",
-        "N/A"
+        ""
     ],
-    "evidence_status": ["Yes", "No", "N/A"],
-    "evidence_quality": ["Clear", "Not Clear", "Misleading", "N/A"]
+    "evidence_status": ["Yes", "No", ""],
+    "evidence_quality": ["Clear", "Not Clear", "Misleading", ""]
 }
 
 # =========================
@@ -114,7 +114,7 @@ def main():
 
     print(f"Total samples: {len(data)}")
 
-    # 建立 week12（如果不存在）
+    
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # 取得接續 index
