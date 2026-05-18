@@ -37,7 +37,7 @@ LABELS_MAP = {
         "already",
         "within_2_years",
         "between_2_and_5_years",
-        "longer_than_5_years",
+        "more_than_5_years",
         "N/A"
     ],
     "evidence_status": ["Yes", "No", "N/A"],
@@ -156,22 +156,32 @@ def validate_prediction_labels(pred_dict):
 # F1
 # =========================================
 
-def get_weighted_f1(pred_dict, true_dict):
-
+def get_weighted_f1(pred_dict, true_dict, name="Model"):
+    print(f"\nCalculating F1 for {name}...")
     field_scores = []
     macro_f1s = []
 
     for field, weight in zip(FIELDS, WEIGHTS):
-
         y_true, y_pred = [], []
         labels = LABELS_MAP[field]
 
         for doc_id, true_item in true_dict.items():
-
             pred_item = pred_dict.get(doc_id, {})
+            
+            # 1. 取得真實標籤，若不存在則給予預設值
+            true_val = true_item.get(field, DEFAULT_LABELS[field])
+            # 【核心修改】：如果真值是空字串 ""，自動對應轉換為 "N/A"
+            if true_val == "":
+                true_val = "N/A"
+                
+            # 2. 取得預測標籤，若不存在則給予預設值
+            pred_val = pred_item.get(field, DEFAULT_LABELS[field])
+            # （保險起見，如果預測結果也有出現 ""，也一併轉為 "N/A"）
+            if pred_val == "":
+                pred_val = "N/A"
 
-            y_true.append(true_item.get(field, DEFAULT_LABELS[field]))
-            y_pred.append(pred_item.get(field, DEFAULT_LABELS[field]))
+            y_true.append(true_val)
+            y_pred.append(pred_val)
 
         score = f1_score(
             y_true, y_pred,
@@ -182,10 +192,10 @@ def get_weighted_f1(pred_dict, true_dict):
 
         macro_f1s.append(score)
         field_scores.append(score * weight)
-
         print(f" - [{field}] F1={score:.4f} (w={weight})")
 
-    return sum(field_scores), macro_f1s, FIELDS, WEIGHTS
+    total_f1 = sum(field_scores)
+    return total_f1, macro_f1s
 
 # =========================================
 # main
