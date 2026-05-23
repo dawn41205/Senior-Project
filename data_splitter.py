@@ -10,9 +10,10 @@ from sklearn.model_selection import train_test_split
 # =========================
 # 設定
 # =========================
+WEEK = "week13"
 
 INPUT_FILE = os.path.join("dataset", "vpesg4k_train_1000.json")
-OUTPUT_DIR = os.path.join("dataset", "week12")
+OUTPUT_DIR = os.path.join("dataset", WEEK)
 
 N_SPLITS = 5
 TEST_SIZE = 0.2
@@ -35,15 +36,18 @@ EVAL_FIELDS = {
 # 找已有 split 數量
 # =========================
 
-def get_next_split_index(output_dir):
+def get_next_split_index(output_dir, week):
+
     if not os.path.exists(output_dir):
         return 1
 
-    pattern = re.compile(r"week12_(\d+)")
+    pattern = re.compile(rf"{week}_(\d+)")
+
     existing = []
 
     for name in os.listdir(output_dir):
         match = pattern.match(name)
+
         if match:
             existing.append(int(match.group(1)))
 
@@ -86,6 +90,7 @@ def plot_label_distribution(train_data, save_path):
         total = sum(ordered_counts.values())
 
         for bar, (label, count) in zip(bars, ordered_counts.items()):
+
             pct = count / total * 100 if total > 0 else 0
 
             ax.text(
@@ -114,11 +119,11 @@ def main():
 
     print(f"Total samples: {len(data)}")
 
-    
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # 取得接續 index
-    start_idx = get_next_split_index(OUTPUT_DIR)
+    start_idx = get_next_split_index(OUTPUT_DIR, WEEK)
+
     print(f"Start split index: {start_idx}")
 
     for i in range(N_SPLITS):
@@ -139,7 +144,7 @@ def main():
 
         print(f"Train: {len(train_data)} | Val: {len(val_data)}")
 
-        split_dir = os.path.join(OUTPUT_DIR, f"week12_{split_id}")
+        split_dir = os.path.join(OUTPUT_DIR, f"{WEEK}_{split_id}")
         os.makedirs(split_dir, exist_ok=True)
 
         # save json
