@@ -1,0 +1,201 @@
+id,promise_status,verification_timeline,evidence_status,evidence_quality
+10011,Yes,already,Yes,Clear
+10024,Yes,already,No,N/A
+10026,Yes,already,Yes,Clear
+10031,Yes,already,Yes,Clear
+10040,Yes,already,Yes,Not Clear
+10045,No,N/A,N/A,N/A
+10055,Yes,already,Yes,Clear
+10056,Yes,more_than_5_years,Yes,Clear
+10060,Yes,between_2_and_5_years,Yes,Clear
+10061,No,N/A,N/A,N/A
+10064,Yes,between_2_and_5_years,Yes,N/A
+10067,Yes,already,Yes,Clear
+10068,No,N/A,N/A,N/A
+10071,Yes,already,Yes,Clear
+10073,No,N/A,N/A,N/A
+10077,Yes,already,Yes,Not Clear
+10079,Yes,more_than_5_years,Yes,Clear
+10087,Yes,more_than_5_years,Yes,Clear
+10089,Yes,within_2_years,Yes,Clear
+10097,Yes,more_than_5_years,N/A,N/A
+10102,Yes,already,Yes,Clear
+10108,Yes,already,Yes,Clear
+10111,No,N/A,N/A,N/A
+10121,Yes,already,Yes,Clear
+10137,Yes,already,Yes,Clear
+10138,Yes,already,Yes,Clear
+10140,Yes,already,Yes,Clear
+10159,Yes,already,Yes,Clear
+10169,Yes,already,Yes,Clear
+10175,Yes,already,Yes,Clear
+10185,Yes,already,Yes,Clear
+10199,Yes,between_2_and_5_years,Yes,Not Clear
+10200,Yes,already,Yes,Clear
+10209,Yes,already,N/A,N/A
+10210,Yes,already,Yes,Clear
+10211,Yes,already,Yes,Clear
+10214,No,N/A,N/A,N/A
+10216,No,N/A,N/A,N/A
+10219,Yes,already,Yes,Clear
+10222,Yes,already,Yes,Clear
+10236,Yes,already,Yes,Clear
+10238,Yes,more_than_5_years,Yes,Clear
+10245,Yes,already,Yes,Clear
+10248,No,N/A,N/A,N/A
+10255,Yes,already,Yes,Clear
+10257,Yes,within_2_years,Yes,Clear
+10260,Yes,already,Yes,Not Clear
+10261,Yes,already,Yes,Clear
+10262,Yes,already,Yes,Clear
+10266,Yes,more_than_5_years,Yes,Clear
+10276,Yes,between_2_and_5_years,Yes,Clear
+10278,Yes,between_2_and_5_years,Yes,Clear
+10281,Yes,more_than_5_years,Yes,Clear
+10282,Yes,already,Yes,Clear
+10290,Yes,more_than_5_years,Yes,Clear
+10293,Yes,already,Yes,Clear
+10295,Yes,already,Yes,Clear
+10297,Yes,between_2_and_5_years,Yes,Not Clear
+10299,Yes,already,Yes,Clear
+10300,Yes,already,Yes,Clear
+10308,Yes,more_than_5_years,Yes,Clear
+10310,Yes,already,Yes,Clear
+10311,Yes,already,Yes,Clear
+10313,Yes,more_than_5_years,N/A,N/A
+10315,Yes,already,Yes,Clear
+10319,Yes,more_than_5_years,Yes,Clear
+10320,Yes,between_2_and_5_years,Yes,Not Clear
+10322,Yes,between_2_and_5_years,Yes,Not Clear
+10328,Yes,already,N/A,N/A
+10329,Yes,already,Yes,Clear
+10333,Yes,already,Yes,Clear
+10347,Yes,already,N/A,N/A
+10352,No,N/A,N/A,N/A
+10356,No,N/A,N/A,N/A
+10362,Yes,more_than_5_years,Yes,Clear
+10364,Yes,more_than_5_years,Yes,Clear
+10366,Yes,already,Yes,Clear
+10371,No,N/A,N/A,N/A
+10372,Yes,already,Yes,Clear
+10378,Yes,between_2_and_5_years,N/A,N/A
+10383,Yes,more_than_5_years,Yes,Clear
+10409,Yes,more_than_5_years,Yes,Clear
+10412,No,N/A,N/A,N/A
+10426,No,N/A,N/A,N/A
+10430,No,N/A,N/A,N/A
+10433,No,N/A,N/A,N/A
+10437,Yes,more_than_5_years,Yes,Clear
+10440,Yes,already,Yes,Not Clear
+10446,Yes,already,Yes,Clear
+10452,No,N/A,N/A,N/A
+10463,Yes,already,Yes,Clear
+10480,Yes,already,Yes,Clear
+10487,Yes,already,Yes,Clear
+10494,Yes,already,Yes,Clear
+10495,Yes,already,Yes,Clear
+10500,Yes,more_than_5_years,Yes,Clear
+10514,Yes,between_2_and_5_years,Yes,Not Clear
+10522,Yes,already,Yes,Clear
+10523,Yes,between_2_and_5_years,Yes,Clear
+10527,Yes,already,Yes,Clear
+10528,Yes,more_than_5_years,Yes,Clear
+10529,Yes,already,Yes,Clear
+10530,Yes,already,Yes,Clear
+10535,Yes,already,Yes,Clear
+10543,Yes,already,Yes,Clear
+10544,No,N/A,N/A,N/A
+10549,Yes,between_2_and_5_years,Yes,Clear
+10550,Yes,between_2_and_5_years,Yes,Clear
+10555,Yes,between_2_and_5_years,Yes,Not Clear
+10560,Yes,already,Yes,Clear
+10571,Yes,already,Yes,Clear
+10579,No,N/A,N/A,N/A
+10584,Yes,already,Yes,Clear
+10585,Yes,already,Yes,Clear
+10590,Yes,already,N/A,N/A
+10591,Yes,already,Yes,Clear
+10596,Yes,already,Yes,Not Clear
+10600,Yes,already,Yes,Clear
+10602,No,N/A,N/A,N/A
+10605,No,N/A,N/A,N/A
+10614,Yes,already,Yes,Clear
+10618,Yes,already,Yes,Clear
+10622,Yes,more_than_5_years,Yes,Not Clear
+10627,Yes,more_than_5_years,Yes,Clear
+10636,Yes,more_than_5_years,Yes,Clear
+10637,Yes,already,Yes,Clear
+10644,Yes,already,Yes,Clear
+10645,Yes,already,Yes,Clear
+10650,Yes,already,Yes,Clear
+10651,Yes,more_than_5_years,Yes,Clear
+10653,Yes,already,Yes,Clear
+10657,Yes,already,Yes,Clear
+10661,Yes,already,Yes,Clear
+10663,Yes,already,Yes,Clear
+10669,Yes,already,Yes,Clear
+10671,Yes,already,Yes,Clear
+10678,Yes,between_2_and_5_years,Yes,Not Clear
+10679,Yes,already,Yes,Clear
+10680,No,N/A,N/A,N/A
+10688,Yes,already,N/A,N/A
+10690,Yes,already,Yes,Clear
+10693,No,N/A,N/A,N/A
+10698,Yes,more_than_5_years,Yes,Clear
+10714,Yes,already,Yes,Clear
+10715,Yes,between_2_and_5_years,Yes,Not Clear
+10717,Yes,already,Yes,Clear
+10722,No,N/A,N/A,N/A
+10738,Yes,between_2_and_5_years,No,N/A
+10741,Yes,already,Yes,Not Clear
+10742,No,N/A,N/A,N/A
+10750,Yes,already,Yes,Clear
+10754,Yes,between_2_and_5_years,Yes,Not Clear
+10762,Yes,already,Yes,Clear
+10765,No,N/A,N/A,N/A
+10768,Yes,more_than_5_years,Yes,Clear
+10788,Yes,between_2_and_5_years,Yes,Not Clear
+10801,No,N/A,N/A,N/A
+10803,Yes,already,Yes,Clear
+10811,Yes,more_than_5_years,Yes,Clear
+10812,Yes,already,Yes,Clear
+10817,Yes,already,Yes,Clear
+10821,No,N/A,N/A,N/A
+10823,Yes,already,Yes,Clear
+10824,Yes,already,Yes,Clear
+10827,No,N/A,N/A,N/A
+10830,Yes,already,Yes,Clear
+10838,Yes,already,Yes,Clear
+10846,Yes,already,Yes,Clear
+10850,Yes,more_than_5_years,Yes,Clear
+10860,No,N/A,N/A,N/A
+10866,Yes,between_2_and_5_years,N/A,N/A
+10867,Yes,between_2_and_5_years,Yes,Clear
+10868,Yes,more_than_5_years,Yes,Clear
+10880,Yes,already,Yes,Clear
+10884,Yes,already,Yes,Clear
+10885,No,N/A,N/A,N/A
+10893,Yes,already,N/A,N/A
+10894,Yes,already,Yes,Clear
+10900,Yes,more_than_5_years,Yes,Clear
+10902,Yes,already,N/A,N/A
+10903,Yes,between_2_and_5_years,N/A,N/A
+10915,No,N/A,N/A,N/A
+10918,No,N/A,N/A,N/A
+10925,No,N/A,N/A,N/A
+10937,Yes,already,Yes,Clear
+10939,Yes,already,Yes,Clear
+10942,No,N/A,N/A,N/A
+10943,No,N/A,N/A,N/A
+10948,Yes,between_2_and_5_years,Yes,N/A
+10949,Yes,more_than_5_years,Yes,Clear
+10960,No,N/A,N/A,N/A
+10974,Yes,already,Yes,Clear
+10975,Yes,between_2_and_5_years,Yes,Not Clear
+10978,Yes,already,Yes,Clear
+10979,Yes,between_2_and_5_years,Yes,Not Clear
+10986,Yes,between_2_and_5_years,N/A,N/A
+10987,Yes,already,Yes,Clear
+10990,Yes,already,N/A,N/A
+10996,Yes,N/A,N/A,N/A
+10999,Yes,already,Yes,Clear

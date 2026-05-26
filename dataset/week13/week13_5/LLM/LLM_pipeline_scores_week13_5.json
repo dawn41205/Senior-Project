@@ -1,0 +1,30 @@
+{
+  "split": "week13_5",
+  "created_at": "2026-05-26T00:36:53",
+  "pipeline": "week13 formal-safe current architecture with fold-local PS/ES BERT",
+  "prediction_json": "E:\\project\\test510\\week13_runs\\week13_5\\LLM_pipeline_pred_week13_5.json",
+  "prediction_csv": "E:\\project\\test510\\week13_runs\\week13_5\\LLM_pipeline_pred_week13_5.csv",
+  "validation_report": "E:\\project\\test510\\week13_runs\\week13_5\\validation_report_week13_5.md",
+  "weighted_score": 0.6265042190899801,
+  "field_scores": {
+    "promise_status": 0.7575757575757576,
+    "verification_timeline": 0.5470105885475295,
+    "evidence_status": 0.7790513833992095,
+    "evidence_quality": 0.4549201836369611
+  },
+  "weights": {
+    "promise_status": 0.2,
+    "verification_timeline": 0.15,
+    "evidence_status": 0.3,
+    "evidence_quality": 0.35
+  },
+  "validation_rows": 200,
+  "train_rows": 800,
+  "rag_cache_rows": 200,
+  "leakage_guard": [
+    "RAG index was rebuilt from this split's train_grouped_enhanced.json only.",
+    "BERT PS/ES models were trained under this split's run directory only.",
+    "BERT checkpoint selection used an internal dev split carved from train rows, not val_grouped.json.",
+    "Validation inference input kept formal-safe fields only."
+  ]
+}
