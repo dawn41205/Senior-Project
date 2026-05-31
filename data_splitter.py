@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 # =========================
 # 設定
 # =========================
-WEEK = "week13"
+WEEK = "week14"
 
 INPUT_FILE = os.path.join("dataset", "vpesg4k_train_1000.json")
 OUTPUT_DIR = os.path.join("dataset", WEEK)

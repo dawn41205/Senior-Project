@@ -7,10 +7,11 @@ from sklearn.metrics import f1_score
 # =========================================
 # 設定
 # =========================================
-BASE_DIR = "dataset/week12/week12_5"
+WEEK="week13_5"
+BASE_DIR = f"dataset/week13/{WEEK}"
 VAL_FILE = f"{BASE_DIR}/val_grouped.json"
 PRED1_FILE = f"{BASE_DIR}/bert/bert_prediction.json"
-PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_week12_5.json"
+PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_{WEEK}.json"
 
 FIELDS = [
     "promise_status",
@@ -39,7 +40,7 @@ LABELS_MAP = {
 }
 
 DEFAULT_LABELS = {
-    "promise_status": "No",
+    "promise_status": "N/A",
     "verification_timeline": "N/A",
     "evidence_status": "N/A",
     "evidence_quality": "N/A"
@@ -172,7 +173,7 @@ def main():
         total_f1_p2, macro_f1s_p2 = 0.0, [0.0] * len(FIELDS)
 
     # Baseline 資料
-    baseline_f1s = [0.784, 0.487, 0.639, 0.475]
+    baseline_f1s = [0.728, 0.461, 0.596, 0.443]
     baseline_weighted_avg = sum([s * w for s, w in zip(baseline_f1s, WEIGHTS)])
 
     # =========================================
@@ -181,8 +182,7 @@ def main():
     x = np.arange(len(FIELDS))
     width = 0.25  # 縮小寬度以容納三根柱子
 
-    fig, ax = plt.subplots(figsize=(14, 8))
-
+    fig, ax = plt.subplots(figsize=(18, 10), dpi=150)
     # Model 1 Bars
     bars_p1 = ax.bar(
         x - width,
@@ -237,7 +237,7 @@ def main():
     ax.set_xlabel("Task Categories", fontsize=12)
     ax.set_ylabel("Macro F1 Score", fontsize=12)
     ax.set_title(
-         f"Performance Comparison\n"
+         f"Performance Comparison:{WEEK}\n"
          f"BERT: {total_f1_p1:.4f}  |  LLM: {total_f1_p2:.4f}  |  Baseline: {baseline_weighted_avg:.4f}", 
          fontsize=14, 
          fontweight='bold', 
@@ -264,7 +264,11 @@ def main():
     plt.tight_layout()
 
     # 儲存圖片
-    plt.savefig(f"{BASE_DIR}/f1_scores_comparison.png", dpi=150, bbox_inches='tight')
+    plt.savefig(
+        f"{BASE_DIR}/f1_scores_comparison.png",
+        dpi=400,
+        bbox_inches='tight'
+    )    
     print("\n📊 圖表已輸出: f1_scores_comparison.png")
 
 if __name__ == "__main__":
