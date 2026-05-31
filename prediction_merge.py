@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import matplotlib.pyplot as plt
-
+import pandas as pd
 from pathlib import Path
 from sklearn.metrics import f1_score
 
@@ -9,14 +9,12 @@ from sklearn.metrics import f1_score
 # 設定
 # =========================================
 
-VAL_FILE = "val_grouped.json"
-PRED1_FILE = "prediction.json"
-PRED2_FILE = "prediction2.json"
+WEEK="week14_1"
+BASE_DIR = f"dataset/week14/{WEEK}"
+VAL_FILE = f"{BASE_DIR}/val_grouped.csv"
+PRED1_FILE = f"{BASE_DIR}/bert/bert_prediction.csv"
+PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_{WEEK}.csv"
 
-FIELDS_TO_MERGE = [
-    "promise_status",
-    "verification_timeline"
-]
 
 FIELDS = [
     "promise_status",
@@ -26,7 +24,7 @@ FIELDS = [
 ]
 
 WEIGHTS = [0.2, 0.15, 0.3, 0.35]
-
+CONF_MARGIN = 0.05
 # =========================================
 # Labels
 # =========================================
@@ -70,59 +68,150 @@ def load_json_dict(path):
         str(item["id"]): item
         for item in data
     }
+def load_csv_dict(path):
 
+    path = Path(path)
+
+    if not path.exists():
+        print(f"❌ 檔案不存在: {path}")
+        return None
+
+    df = pd.read_csv(path)
+
+    return {
+        str(row["id"]): row.to_dict()
+        for _, row in df.iterrows()
+    }
 # =========================================
 # merge
 # =========================================
 
-def merge_predictions(pred1_dict, pred2_dict, merge_fields):
+def merge_predictions(pred1_dict, pred2_dict):
 
     merged = {}
 
-    for doc_id, obj in pred1_dict.items():
-        merged[doc_id] = dict(obj)
-
     update_count = 0
 
-    for doc_id, obj in merged.items():
+    for doc_id, obj1 in pred1_dict.items():
 
-        if doc_id not in pred2_dict:
-            continue
+        obj2 = pred2_dict.get(doc_id, {})
 
-        pred2_obj = pred2_dict[doc_id]
+        merged_obj = {
+            "id": obj1["id"]
+        }
 
-        for field in merge_fields:
+        # ==============================
+        # helper
+        # ==============================
 
-            if field in pred2_obj:
+        def choose_field(field):
 
-                if obj.get(field) != pred2_obj[field]:
-                    obj[field] = pred2_obj[field]
-                    update_count += 1
+            nonlocal update_count
 
-    print(f"✅ 更新欄位數量: {update_count}")
+            value1 = obj1.get(field)
+            value2 = obj2.get(field)
 
-    return merged
+            if value2 is None:
+                return value1
 
-# =========================================
-# ESG rule
-# =========================================
+            if value1 == value2:
+                return value1
 
-def apply_esg_logic(pred_dict):
+            conf1 = float(
+                obj1.get(
+                    f"{field}_confidence",
+                    0.0
+                )
+            )
 
-    for obj in pred_dict.values():
+            conf2 = float(
+                obj2.get(
+                    f"{field}_confidence",
+                    0.0
+                )
+            )
 
-        promise = obj.get("promise_status", "No").strip()
-        evidence = obj.get("evidence_status", "N/A").strip()
+            if conf2 - conf1 > CONF_MARGIN:
+                update_count += 1
+                return value2
+
+            return value1
+
+        # ==============================
+        # 1. promise_status
+        # ==============================
+
+        promise = choose_field(
+            "promise_status"
+        )
+
+        merged_obj["promise_status"] = promise
+
+        # ==============================
+        # Rule 1
+        # promise_status = No
+        # ==============================
 
         if promise == "No":
-            obj["verification_timeline"] = "N/A"
-            obj["evidence_status"] = "N/A"
-            obj["evidence_quality"] = "N/A"
 
-        elif evidence == "No":
-            obj["evidence_quality"] = "N/A"
+            merged_obj["verification_timeline"] = "N/A"
+            merged_obj["evidence_status"] = "N/A"
+            merged_obj["evidence_quality"] = "N/A"
 
-    return pred_dict
+            merged[doc_id] = merged_obj
+            continue
+
+        # ==============================
+        # 2. verification_timeline
+        # ==============================
+
+        merged_obj["verification_timeline"] = (
+            choose_field(
+                "verification_timeline"
+            )
+        )
+
+        # ==============================
+        # 3. evidence_status
+        # ==============================
+
+        evidence = choose_field(
+            "evidence_status"
+        )
+
+        merged_obj["evidence_status"] = evidence
+
+        # ==============================
+        # Rule 2
+        # evidence_status != Yes
+        # ==============================
+
+        if evidence != "Yes":
+
+            merged_obj["evidence_quality"] = "N/A"
+
+            merged[doc_id] = merged_obj
+            continue
+
+        # ==============================
+        # 4. evidence_quality
+        # ==============================
+
+        merged_obj["evidence_quality"] = (
+            choose_field(
+                "evidence_quality"
+            )
+        )
+
+        merged[doc_id] = merged_obj
+
+    print("\n==============================================")
+    print("Merge Statistics")
+    print("==============================================")
+    print(f"Updated fields : {update_count}")
+    print("==============================================")
+
+    return merged
 
 # =========================================
 # validate
@@ -196,7 +285,21 @@ def get_weighted_f1(pred_dict, true_dict, name="Model"):
 
     total_f1 = sum(field_scores)
     return total_f1, macro_f1s
+def build_submission_df(pred_dict):
 
+    rows = []
+
+    for obj in pred_dict.values():
+
+        rows.append({
+            "id": obj["id"],
+            "promise_status": obj.get("promise_status", "No"),
+            "verification_timeline": obj.get("verification_timeline", "N/A"),
+            "evidence_status": obj.get("evidence_status", "N/A"),
+            "evidence_quality": obj.get("evidence_quality", "N/A")
+        })
+
+    return pd.DataFrame(rows)
 # =========================================
 # main
 # =========================================
@@ -207,9 +310,9 @@ def main():
     print("Loading data...")
     print("==============================================")
 
-    val_data = load_json_dict(VAL_FILE)
-    pred1_dict = load_json_dict(PRED1_FILE)
-    pred2_dict = load_json_dict(PRED2_FILE)
+    val_data = load_csv_dict(VAL_FILE)
+    pred1_dict = load_csv_dict(PRED1_FILE)
+    pred2_dict = load_csv_dict(PRED2_FILE)
 
     # =========================================
     # 必要檔案檢查
@@ -232,19 +335,12 @@ def main():
 
         predicts_dict = merge_predictions(
             pred1_dict,
-            pred2_dict,
-            FIELDS_TO_MERGE
+            pred2_dict
         )
 
     else:
         print("ℹ️ 僅使用 prediction1（不 merge）")
         predicts_dict = pred1_dict
-
-    # =========================================
-    # ESG logic
-    # =========================================
-
-    predicts_dict = apply_esg_logic(predicts_dict)
 
     # =========================================
     # validate
@@ -256,27 +352,26 @@ def main():
     # save
     # =========================================
 
-    out_file = "prediction_final_merged.json"
+    output_df = build_submission_df(predicts_dict)
 
-    with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(
-            sorted(predicts_dict.values(), key=lambda x: int(x["id"])),
-            f,
-            ensure_ascii=False,
-            indent=4
-        )
+    output_df = output_df.sort_values(by="id")
 
-    print(f"\n✅ saved: {out_file}")
+    out_file = f"{BASE_DIR}/prediction_merged.csv"
+
+    output_df.to_csv(
+        out_file,
+        index=False,
+        encoding="utf-8-sig"
+    )
 
     # =========================================
     # F1
     # =========================================
 
-    total_f1, macro_f1s, fields, weights = get_weighted_f1(
+    total_f1, macro_f1s = get_weighted_f1(
         predicts_dict,
         val_data
     )
-
     print(f"\n==============================================")
     print(f"Final Weighted F1: {total_f1:.4f}")
     print(f"==============================================")
@@ -285,14 +380,14 @@ def main():
     baseline_f1s = [0.728, 0.461, 0.596, 0.443]
 
     baseline_weighted_avg = sum([
-        s * w for s, w in zip(baseline_f1s, weights)
+        s * w for s, w in zip(baseline_f1s, WEIGHTS)
     ])
 
     # =========================================
     # 繪圖
     # =========================================
 
-    x = np.arange(len(fields))
+    x = np.arange(len(FIELDS))
     width = 0.35
 
     fig, ax = plt.subplots(figsize=(12, 7))
@@ -362,7 +457,7 @@ def main():
     ax.set_xticks(x)
 
     ax.set_xticklabels(
-        [f"{f}\n(w={w})" for f, w in zip(fields, weights)],
+        [f"{f}\n(w={w})" for f, w in zip(FIELDS, WEIGHTS)],
         fontsize=10
     )
 
@@ -400,10 +495,18 @@ def main():
     # save
     # =========================================
 
-    plt.savefig("f1_scores_comparison.png", dpi=150, bbox_inches='tight')
-    plt.savefig("f1_scores.png", dpi=150, bbox_inches='tight')
+    plt.savefig(
+        f"{BASE_DIR}/f1_scores_comparison.png",
+        dpi=150,
+        bbox_inches='tight'
+    )
 
-    print("📊 圖表已輸出: f1_scores_comparison.png / f1_scores.png")
+    plt.savefig(
+        f"{BASE_DIR}/merge_f1_scores.png",
+        dpi=150,
+        bbox_inches='tight'
+    )
+
 # =========================================
 # run
 # =========================================

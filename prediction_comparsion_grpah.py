@@ -3,15 +3,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 from sklearn.metrics import f1_score
-
+import pandas as pd
 # =========================================
 # 設定
 # =========================================
-WEEK="week13_5"
-BASE_DIR = f"dataset/week13/{WEEK}"
-VAL_FILE = f"{BASE_DIR}/val_grouped.json"
-PRED1_FILE = f"{BASE_DIR}/bert/bert_prediction.json"
-PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_{WEEK}.json"
+WEEK="week14_1"
+BASE_DIR = f"dataset/week14/{WEEK}"
+VAL_FILE = f"{BASE_DIR}/val_grouped.csv"
+PRED1_FILE = f"{BASE_DIR}/bert/bert_prediction.csv"
+PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_{WEEK}.csv"
+PRED3_FILE = f"{BASE_DIR}/prediction_merged.csv"
 
 FIELDS = [
     "promise_status",
@@ -40,7 +41,7 @@ LABELS_MAP = {
 }
 
 DEFAULT_LABELS = {
-    "promise_status": "N/A",
+    "promise_status": "No",
     "verification_timeline": "N/A",
     "evidence_status": "N/A",
     "evidence_quality": "N/A"
@@ -63,7 +64,20 @@ def load_json_dict(path):
         str(item["id"]): item
         for item in data
     }
+def load_csv_dict(path):
 
+    path = Path(path)
+
+    if not path.exists():
+        print(f"❌ 檔案不存在: {path}")
+        return None
+
+    df = pd.read_csv(path)
+
+    return {
+        str(row["id"]): row.to_dict()
+        for _, row in df.iterrows()
+    }
 # =========================================
 # validate
 # =========================================
@@ -140,16 +154,18 @@ def main():
     print("Loading data...")
     print("==============================================")
 
-    val_data = load_json_dict(VAL_FILE)
-    pred1_dict = load_json_dict(PRED1_FILE)
-    pred2_dict = load_json_dict(PRED2_FILE)
+    val_data = load_csv_dict(VAL_FILE)
+    pred1_dict = load_csv_dict(PRED1_FILE)
+    pred2_dict = load_csv_dict(PRED2_FILE)
+    pred3_dict = load_csv_dict(PRED3_FILE)
 
     # 必要的檔案檢查
     if val_data is None:
         print("❌ 缺少 validation file")
         return
-    if pred1_dict is None and pred2_dict is None:
-        print("❌ 兩個預測檔案都不存在，無法進行評估")
+    
+    if all(x is None for x in [pred1_dict, pred2_dict, pred3_dict]):
+        print("❌ 沒有任何 prediction file")
         return
 
     # =========================================
@@ -166,51 +182,61 @@ def main():
 
     # 處理 Model 2
     if pred2_dict:
-        validate_prediction_labels(pred2_dict, "LLM Prediction ")
+        validate_prediction_labels(pred2_dict, "LLM Prediction")
         total_f1_p2, macro_f1s_p2 = get_weighted_f1(pred2_dict, val_data, "LLM")
         print(f"➡️ LLM Weighted F1: {total_f1_p2:.4f}")
     else:
         total_f1_p2, macro_f1s_p2 = 0.0, [0.0] * len(FIELDS)
+        # 處理 Model 2
+    if pred3_dict:
+        validate_prediction_labels(pred3_dict, "Merged Prediction")
+        total_f1_p3, macro_f1s_p3 = get_weighted_f1(pred3_dict, val_data, "Merged")
+        print(f"➡️ Merged Weighted F1: {total_f1_p3:.4f}")
+    else:
+        total_f1_p3, macro_f1s_p3 = 0.0, [0.0] * len(FIELDS)
 
     # Baseline 資料
     baseline_f1s = [0.728, 0.461, 0.596, 0.443]
     baseline_weighted_avg = sum([s * w for s, w in zip(baseline_f1s, WEIGHTS)])
 
     # =========================================
-    # 繪圖 (三方對比)
+    # 繪圖 (對比)
     # =========================================
     x = np.arange(len(FIELDS))
-    width = 0.25  # 縮小寬度以容納三根柱子
+    width = 0.2
+    fig, ax = plt.subplots(figsize=(20, 10), dpi=150)
 
-    fig, ax = plt.subplots(figsize=(18, 10), dpi=150)
     # Model 1 Bars
     bars_p1 = ax.bar(
-        x - width,
+        x - 1.5 * width,
         macro_f1s_p1,
         width,
-        label=f'BERT (Weighted Avg: {total_f1_p1:.4f})',
-        color='steelblue',
-        alpha=0.9
+        label=f'BERT ({total_f1_p1:.4f})',
+        color='steelblue'
     )
 
     # Model 2 Bars
     bars_p2 = ax.bar(
-        x,
+        x - 0.5 * width,
         macro_f1s_p2,
         width,
-        label=f'LLM (Weighted Avg: {total_f1_p2:.4f})',
-        color='mediumseagreen',
-        alpha=0.9
+        label=f'LLM ({total_f1_p2:.4f})',
+        color='mediumseagreen'
     )
-
+    bars_p3 = ax.bar(
+        x + 0.5 * width,
+        macro_f1s_p3,
+        width,
+        label=f'Merged ({total_f1_p3:.4f})',
+        color='crimson'
+    )
     # Baseline Bars
     bars_baseline = ax.bar(
-        x + width,
+        x + 1.5 * width,
         baseline_f1s,
         width,
-        label=f'Official Baseline (Weighted Avg: {baseline_weighted_avg:.4f})',
-        color='darkorange',
-        alpha=0.9
+        label=f'Baseline ({baseline_weighted_avg:.4f})',
+        color='darkorange'
     )
 
     # 標數值函式
@@ -231,18 +257,22 @@ def main():
 
     autolabel(bars_p1)
     autolabel(bars_p2)
+    autolabel(bars_p3)
     autolabel(bars_baseline)
 
     # 圖表設定
     ax.set_xlabel("Task Categories", fontsize=12)
     ax.set_ylabel("Macro F1 Score", fontsize=12)
     ax.set_title(
-         f"Performance Comparison:{WEEK}\n"
-         f"BERT: {total_f1_p1:.4f}  |  LLM: {total_f1_p2:.4f}  |  Baseline: {baseline_weighted_avg:.4f}", 
-         fontsize=14, 
-         fontweight='bold', 
-         pad=20
-     )
+        f"Performance Comparison ({WEEK})\n"
+        f"BERT={total_f1_p1:.4f} | "
+        f"LLM={total_f1_p2:.4f} | "
+        f"Merged={total_f1_p3:.4f} | "
+        f"Baseline={baseline_weighted_avg:.4f}",
+        fontsize=15,
+        fontweight='bold',
+        pad=20
+    )
     
     ax.set_xticks(x)
     ax.set_xticklabels(
@@ -251,12 +281,34 @@ def main():
     )
     ax.set_ylim(0, 1.1)
 
-    # 繪製各自的加權平均水平線
-    if pred1_dict:
-        ax.axhline(total_f1_p1, color='steelblue', linestyle='--', linewidth=1.5, alpha=0.6)
-    if pred2_dict:
-        ax.axhline(total_f1_p2, color='mediumseagreen', linestyle='--', linewidth=1.5, alpha=0.6)
-    ax.axhline(baseline_weighted_avg, color='darkorange', linestyle='--', linewidth=1.5, alpha=0.6)
+    ax.axhline(
+        total_f1_p1,
+        color='steelblue',
+        linestyle='--',
+        alpha=0.4
+    )
+
+    ax.axhline(
+        total_f1_p2,
+        color='mediumseagreen',
+        linestyle='--',
+        alpha=0.4
+    )
+
+    ax.axhline(
+        total_f1_p3,
+        color='crimson',
+        linestyle='--',
+        alpha=0.5,
+        linewidth=2
+    )
+
+    ax.axhline(
+        baseline_weighted_avg,
+        color='darkorange',
+        linestyle='--',
+        alpha=0.4
+    )
 
     ax.legend(loc='upper right', frameon=True, shadow=True, fontsize=10)
     ax.grid(True, axis='y', alpha=0.2)
