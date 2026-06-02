@@ -1,0 +1,50 @@
+{
+  "week": "week14",
+  "prediction_rows": 1000,
+  "confidence_rows": 1000,
+  "truth_rows": 1000,
+  "formal_input_rows": 1000,
+  "splits": [
+    {
+      "split": "week14_1",
+      "prediction_rows": 200,
+      "confidence_rows": 200,
+      "truth_rows": 200,
+      "formal_input_rows": 200
+    },
+    {
+      "split": "week14_2",
+      "prediction_rows": 200,
+      "confidence_rows": 200,
+      "truth_rows": 200,
+      "formal_input_rows": 200
+    },
+    {
+      "split": "week14_3",
+      "prediction_rows": 200,
+      "confidence_rows": 200,
+      "truth_rows": 200,
+      "formal_input_rows": 200
+    },
+    {
+      "split": "week14_4",
+      "prediction_rows": 200,
+      "confidence_rows": 200,
+      "truth_rows": 200,
+      "formal_input_rows": 200
+    },
+    {
+      "split": "week14_5",
+      "prediction_rows": 200,
+      "confidence_rows": 200,
+      "truth_rows": 200,
+      "formal_input_rows": 200
+    }
+  ],
+  "confidence_fields": [
+    "promise_status_confidence",
+    "verification_timeline_confidence",
+    "evidence_status_confidence",
+    "evidence_quality_confidence"
+  ]
+}

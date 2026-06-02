@@ -1,0 +1,201 @@
+id,promise_status,verification_timeline,evidence_status,evidence_quality
+10001,Yes,between_2_and_5_years,Yes,N/A
+10002,Yes,N/A,No,N/A
+10004,Yes,N/A,Yes,N/A
+10020,Yes,N/A,Yes,N/A
+10021,Yes,N/A,Yes,N/A
+10033,Yes,more_than_5_years,Yes,N/A
+10036,No,N/A,N/A,N/A
+10037,Yes,N/A,Yes,N/A
+10039,Yes,more_than_5_years,Yes,N/A
+10042,Yes,more_than_5_years,Yes,N/A
+10054,Yes,N/A,Yes,N/A
+10062,Yes,between_2_and_5_years,Yes,N/A
+10065,Yes,N/A,Yes,N/A
+10067,Yes,between_2_and_5_years,Yes,N/A
+10068,No,N/A,N/A,N/A
+10069,No,N/A,N/A,N/A
+10072,Yes,N/A,Yes,N/A
+10074,Yes,between_2_and_5_years,Yes,N/A
+10079,Yes,N/A,Yes,N/A
+10081,Yes,between_2_and_5_years,Yes,N/A
+10082,No,N/A,N/A,N/A
+10086,Yes,N/A,Yes,N/A
+10089,Yes,N/A,Yes,N/A
+10091,Yes,between_2_and_5_years,Yes,N/A
+10095,Yes,between_2_and_5_years,Yes,Not Clear
+10118,Yes,N/A,Yes,N/A
+10119,Yes,N/A,Yes,N/A
+10120,Yes,N/A,Yes,N/A
+10124,No,N/A,N/A,N/A
+10126,Yes,between_2_and_5_years,No,N/A
+10133,No,N/A,N/A,N/A
+10137,Yes,between_2_and_5_years,Yes,Not Clear
+10138,Yes,between_2_and_5_years,Yes,Clear
+10140,Yes,N/A,Yes,N/A
+10142,Yes,between_2_and_5_years,Yes,Clear
+10144,Yes,N/A,Yes,N/A
+10146,No,N/A,N/A,N/A
+10176,Yes,more_than_5_years,Yes,Not Clear
+10181,Yes,N/A,Yes,N/A
+10182,Yes,N/A,Yes,N/A
+10183,Yes,more_than_5_years,Yes,Not Clear
+10184,Yes,more_than_5_years,Yes,Not Clear
+10185,Yes,N/A,Yes,N/A
+10188,Yes,more_than_5_years,Yes,Clear
+10197,Yes,more_than_5_years,Yes,N/A
+10202,Yes,N/A,Yes,N/A
+10205,Yes,N/A,Yes,N/A
+10207,Yes,more_than_5_years,Yes,Not Clear
+10213,Yes,N/A,Yes,N/A
+10222,Yes,between_2_and_5_years,Yes,Clear
+10229,Yes,more_than_5_years,Yes,Clear
+10230,Yes,N/A,Yes,N/A
+10231,Yes,between_2_and_5_years,Yes,Not Clear
+10232,Yes,between_2_and_5_years,Yes,Not Clear
+10234,No,N/A,N/A,N/A
+10237,Yes,already,Yes,N/A
+10238,Yes,N/A,Yes,N/A
+10244,No,N/A,N/A,N/A
+10246,Yes,N/A,Yes,N/A
+10247,No,N/A,N/A,N/A
+10253,Yes,between_2_and_5_years,Yes,Clear
+10255,Yes,N/A,Yes,N/A
+10256,No,N/A,N/A,N/A
+10271,Yes,between_2_and_5_years,Yes,N/A
+10273,Yes,N/A,Yes,N/A
+10277,No,N/A,N/A,N/A
+10282,Yes,between_2_and_5_years,Yes,N/A
+10284,Yes,N/A,Yes,N/A
+10285,Yes,between_2_and_5_years,Yes,N/A
+10287,Yes,N/A,Yes,N/A
+10292,Yes,between_2_and_5_years,Yes,Misleading
+10300,Yes,N/A,Yes,N/A
+10304,Yes,more_than_5_years,Yes,Not Clear
+10309,No,N/A,N/A,N/A
+10317,Yes,more_than_5_years,Yes,Not Clear
+10325,Yes,N/A,Yes,N/A
+10346,Yes,N/A,Yes,Clear
+10351,Yes,N/A,Yes,N/A
+10356,Yes,between_2_and_5_years,Yes,Clear
+10364,Yes,more_than_5_years,Yes,Not Clear
+10373,Yes,more_than_5_years,Yes,Not Clear
+10381,No,N/A,N/A,N/A
+10382,Yes,N/A,Yes,N/A
+10387,Yes,between_2_and_5_years,Yes,N/A
+10391,Yes,N/A,Yes,N/A
+10396,Yes,N/A,Yes,N/A
+10404,Yes,N/A,No,N/A
+10405,Yes,N/A,No,N/A
+10407,No,N/A,N/A,N/A
+10408,Yes,between_2_and_5_years,Yes,N/A
+10413,Yes,N/A,No,N/A
+10415,Yes,N/A,Yes,N/A
+10426,Yes,between_2_and_5_years,Yes,N/A
+10428,No,N/A,N/A,N/A
+10433,Yes,between_2_and_5_years,Yes,Misleading
+10450,Yes,N/A,Yes,N/A
+10470,Yes,between_2_and_5_years,Yes,Not Clear
+10482,Yes,between_2_and_5_years,Yes,N/A
+10487,Yes,between_2_and_5_years,Yes,N/A
+10494,Yes,between_2_and_5_years,Yes,N/A
+10500,Yes,N/A,Yes,N/A
+10501,No,N/A,N/A,N/A
+10504,Yes,more_than_5_years,Yes,Not Clear
+10507,Yes,N/A,Yes,N/A
+10515,No,N/A,N/A,N/A
+10516,Yes,N/A,Yes,N/A
+10522,Yes,N/A,Yes,N/A
+10527,Yes,N/A,Yes,N/A
+10529,Yes,N/A,Yes,N/A
+10546,Yes,between_2_and_5_years,Yes,Not Clear
+10548,Yes,N/A,Yes,N/A
+10568,Yes,N/A,Yes,N/A
+10570,Yes,between_2_and_5_years,Yes,N/A
+10600,Yes,N/A,Yes,N/A
+10601,Yes,N/A,Yes,N/A
+10609,No,N/A,N/A,N/A
+10610,Yes,N/A,Yes,N/A
+10611,No,N/A,N/A,N/A
+10617,Yes,N/A,Yes,N/A
+10620,Yes,already,Yes,N/A
+10623,Yes,between_2_and_5_years,Yes,Clear
+10624,No,N/A,N/A,N/A
+10626,Yes,more_than_5_years,No,N/A
+10630,Yes,between_2_and_5_years,Yes,N/A
+10638,Yes,between_2_and_5_years,Yes,N/A
+10640,No,N/A,N/A,N/A
+10641,Yes,N/A,Yes,N/A
+10642,No,N/A,N/A,N/A
+10644,No,N/A,N/A,N/A
+10653,Yes,N/A,Yes,N/A
+10657,Yes,between_2_and_5_years,Yes,Not Clear
+10659,No,N/A,N/A,N/A
+10660,No,N/A,N/A,N/A
+10670,No,N/A,N/A,N/A
+10672,No,N/A,N/A,N/A
+10682,No,N/A,N/A,N/A
+10686,Yes,N/A,No,N/A
+10689,Yes,more_than_5_years,Yes,N/A
+10694,No,N/A,N/A,N/A
+10695,Yes,N/A,Yes,N/A
+10696,Yes,N/A,Yes,N/A
+10706,Yes,N/A,Yes,N/A
+10713,No,N/A,N/A,N/A
+10715,Yes,N/A,Yes,N/A
+10716,Yes,N/A,Yes,N/A
+10732,Yes,between_2_and_5_years,Yes,N/A
+10737,Yes,N/A,Yes,N/A
+10745,Yes,N/A,Yes,N/A
+10749,Yes,N/A,Yes,N/A
+10756,Yes,N/A,Yes,N/A
+10759,Yes,between_2_and_5_years,Yes,Clear
+10764,Yes,N/A,Yes,N/A
+10765,Yes,N/A,Yes,N/A
+10770,Yes,more_than_5_years,No,N/A
+10772,Yes,more_than_5_years,Yes,N/A
+10782,Yes,between_2_and_5_years,Yes,N/A
+10783,Yes,between_2_and_5_years,Yes,Misleading
+10798,Yes,between_2_and_5_years,Yes,Clear
+10800,Yes,N/A,Yes,N/A
+10803,Yes,N/A,Yes,N/A
+10806,No,N/A,N/A,N/A
+10812,Yes,N/A,Yes,N/A
+10813,Yes,between_2_and_5_years,Yes,N/A
+10815,Yes,N/A,Yes,N/A
+10822,Yes,N/A,Yes,N/A
+10825,Yes,N/A,Yes,N/A
+10830,Yes,between_2_and_5_years,Yes,Not Clear
+10838,Yes,N/A,Yes,N/A
+10841,Yes,N/A,Yes,N/A
+10842,Yes,between_2_and_5_years,Yes,Misleading
+10843,Yes,N/A,Yes,N/A
+10849,Yes,between_2_and_5_years,Yes,Not Clear
+10850,Yes,N/A,Yes,N/A
+10859,No,N/A,N/A,N/A
+10864,No,N/A,N/A,N/A
+10869,Yes,N/A,Yes,N/A
+10872,Yes,N/A,Yes,N/A
+10874,Yes,between_2_and_5_years,Yes,N/A
+10880,Yes,already,Yes,N/A
+10882,Yes,N/A,Yes,N/A
+10884,Yes,between_2_and_5_years,Yes,N/A
+10886,Yes,N/A,Yes,N/A
+10889,Yes,between_2_and_5_years,Yes,N/A
+10907,Yes,N/A,Yes,N/A
+10910,Yes,N/A,Yes,N/A
+10911,Yes,between_2_and_5_years,Yes,Not Clear
+10912,Yes,between_2_and_5_years,Yes,Clear
+10918,No,N/A,N/A,N/A
+10921,Yes,N/A,No,N/A
+10929,No,N/A,N/A,N/A
+10934,Yes,N/A,Yes,N/A
+10941,Yes,between_2_and_5_years,Yes,N/A
+10949,Yes,N/A,Yes,N/A
+10952,No,N/A,N/A,N/A
+10961,No,N/A,N/A,N/A
+10973,No,N/A,N/A,N/A
+10982,No,N/A,N/A,N/A
+10986,No,N/A,N/A,N/A
+10997,Yes,N/A,No,N/A
+10999,Yes,N/A,No,N/A

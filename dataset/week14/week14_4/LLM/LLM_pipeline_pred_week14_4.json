@@ -1,0 +1,1402 @@
+[
+    {
+        "id": 10727,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10244,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10343,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10977,
+        "promise_status": "Yes",
+        "verification_timeline": "within_2_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10920,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10659,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10258,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10635,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10034,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10923,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10332,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10486,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10211,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10537,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10740,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10053,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10473,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10397,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10338,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10810,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10848,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10375,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10763,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10405,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10753,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10658,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10515,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10574,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10467,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10472,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10623,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10222,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10076,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10803,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10282,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10906,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10235,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10750,
+        "promise_status": "Yes",
+        "verification_timeline": "within_2_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10215,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10830,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10671,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10453,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10432,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10100,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10261,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10418,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10355,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10128,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10867,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10181,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10001,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10576,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10915,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10125,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10531,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10172,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10382,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10650,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10424,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10209,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10613,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10710,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10155,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10174,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10988,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10267,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10778,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10681,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10503,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10225,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10577,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10348,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10672,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10238,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10857,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10844,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10247,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10366,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10571,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10770,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10499,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10645,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10484,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10721,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10112,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10691,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10371,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10525,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10364,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10363,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10498,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10254,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10885,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10791,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10064,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10419,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10979,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10066,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10097,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10287,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10226,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10614,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10900,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10860,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10428,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10749,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10520,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10676,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10584,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10771,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10831,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10605,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10134,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10283,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10858,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10065,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10980,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10004,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10884,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10586,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10662,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10514,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10077,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10530,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10684,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10388,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10192,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10827,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10805,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10356,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10945,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10475,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10198,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10063,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10068,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10121,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10882,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10420,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10663,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10517,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10592,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10647,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10794,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10333,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10668,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10752,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10171,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10232,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10719,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10776,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10738,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10113,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10535,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10654,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10661,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10031,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10005,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10350,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10983,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10386,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10998,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10890,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10861,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10899,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10748,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10723,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10950,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10070,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10196,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10846,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10760,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10606,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10795,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10039,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10163,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10067,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Misleading"
+    },
+    {
+        "id": 10481,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10102,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10739,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10894,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10022,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "No",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10624,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10488,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10138,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10020,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10840,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10919,
+        "promise_status": "Yes",
+        "verification_timeline": "already",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10257,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10146,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10185,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10527,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10811,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10483,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10692,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10558,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10459,
+        "promise_status": "Yes",
+        "verification_timeline": "more_than_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Clear"
+    },
+    {
+        "id": 10170,
+        "promise_status": "No",
+        "verification_timeline": "N/A",
+        "evidence_status": "N/A",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10298,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    },
+    {
+        "id": 10011,
+        "promise_status": "Yes",
+        "verification_timeline": "between_2_and_5_years",
+        "evidence_status": "Yes",
+        "evidence_quality": "Not Clear"
+    },
+    {
+        "id": 10213,
+        "promise_status": "Yes",
+        "verification_timeline": "N/A",
+        "evidence_status": "Yes",
+        "evidence_quality": "N/A"
+    }
+]

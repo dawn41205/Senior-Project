@@ -1,0 +1,32 @@
+{
+  "split": "week14_3",
+  "created_at": "2026-06-02T05:56:19",
+  "pipeline": "week14 formal-safe current architecture with fold-local PS/ES BERT",
+  "prediction_json": "E:\\project\\test510\\week14_runs\\week14_3\\LLM_pipeline_pred_week14_3.json",
+  "prediction_csv": "E:\\project\\test510\\week14_runs\\week14_3\\LLM_pipeline_pred_week14_3.csv",
+  "prediction_confidence_json": "E:\\project\\test510\\week14_runs\\week14_3\\LLM_pipeline_pred_week14_3_with_confidence.json",
+  "prediction_confidence_csv": "E:\\project\\test510\\week14_runs\\week14_3\\LLM_pipeline_pred_week14_3_with_confidence.csv",
+  "validation_report": "E:\\project\\test510\\week14_runs\\week14_3\\validation_report_week14_3.md",
+  "weighted_score": 0.5058047017081255,
+  "field_scores": {
+    "promise_status": 0.9597925294519722,
+    "verification_timeline": 0.19800096741461473,
+    "evidence_status": 0.751223195409242,
+    "evidence_quality": 0.16794026309361804
+  },
+  "weights": {
+    "promise_status": 0.2,
+    "verification_timeline": 0.15,
+    "evidence_status": 0.3,
+    "evidence_quality": 0.35
+  },
+  "validation_rows": 200,
+  "train_rows": 800,
+  "rag_cache_rows": 200,
+  "leakage_guard": [
+    "RAG index was rebuilt from this split's train_grouped_enhanced.json only.",
+    "BERT PS/ES models were trained under this split's run directory only.",
+    "BERT checkpoint selection used an internal dev split carved from train rows, not val_grouped.json.",
+    "Validation inference input kept formal-safe fields only."
+  ]
+}

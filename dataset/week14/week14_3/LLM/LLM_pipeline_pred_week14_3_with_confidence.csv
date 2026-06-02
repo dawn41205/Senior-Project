@@ -1,0 +1,201 @@
+id,promise_status,promise_status_confidence,verification_timeline,verification_timeline_confidence,evidence_status,evidence_status_confidence,evidence_quality,evidence_quality_confidence
+10001,Yes,1.00,between_2_and_5_years,0.70,Yes,0.98,N/A,0.55
+10002,Yes,1.00,N/A,0.55,No,0.88,N/A,0.55
+10004,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10020,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10021,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10033,Yes,1.00,more_than_5_years,0.70,Yes,0.99,N/A,0.55
+10036,No,0.80,N/A,0.70,N/A,1.00,N/A,0.70
+10037,Yes,1.00,N/A,0.55,Yes,0.68,N/A,0.55
+10039,Yes,1.00,more_than_5_years,0.70,Yes,0.96,N/A,0.55
+10042,Yes,1.00,more_than_5_years,0.70,Yes,1.00,N/A,0.55
+10054,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10062,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10065,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10067,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10068,No,1.00,N/A,0.55,N/A,1.00,N/A,0.55
+10069,No,1.00,N/A,0.70,N/A,1.00,N/A,0.55
+10072,Yes,0.88,N/A,0.55,Yes,1.00,N/A,0.55
+10074,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10079,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10081,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10082,No,0.80,N/A,0.55,N/A,1.00,N/A,0.55
+10086,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10089,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10091,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10095,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Not Clear,0.70
+10118,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10119,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10120,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10124,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10126,Yes,1.00,between_2_and_5_years,0.70,No,0.98,N/A,0.70
+10133,No,0.80,N/A,0.55,N/A,1.00,N/A,0.55
+10137,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Not Clear,0.70
+10138,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Clear,0.70
+10140,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10142,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Clear,0.70
+10144,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10146,No,1.00,N/A,0.70,N/A,0.80,N/A,0.55
+10176,Yes,1.00,more_than_5_years,0.70,Yes,1.00,Not Clear,0.70
+10181,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10182,Yes,0.99,N/A,0.55,Yes,0.98,N/A,0.55
+10183,Yes,1.00,more_than_5_years,0.70,Yes,0.99,Not Clear,0.70
+10184,Yes,1.00,more_than_5_years,0.70,Yes,0.99,Not Clear,0.70
+10185,Yes,1.00,N/A,0.55,Yes,0.90,N/A,0.55
+10188,Yes,1.00,more_than_5_years,0.70,Yes,0.94,Clear,0.70
+10197,Yes,1.00,more_than_5_years,0.70,Yes,0.99,N/A,0.55
+10202,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10205,Yes,1.00,N/A,0.55,Yes,0.98,N/A,0.55
+10207,Yes,1.00,more_than_5_years,0.70,Yes,0.97,Not Clear,0.70
+10213,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10222,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Clear,0.70
+10229,Yes,1.00,more_than_5_years,0.70,Yes,1.00,Clear,0.70
+10230,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10231,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Not Clear,0.70
+10232,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Not Clear,0.70
+10234,No,1.00,N/A,0.70,N/A,1.00,N/A,0.55
+10237,Yes,1.00,already,0.70,Yes,1.00,N/A,0.55
+10238,Yes,1.00,N/A,0.55,Yes,0.98,N/A,0.55
+10244,No,1.00,N/A,0.55,N/A,0.80,N/A,0.55
+10246,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10247,No,0.80,N/A,0.55,N/A,1.00,N/A,0.55
+10253,Yes,1.00,between_2_and_5_years,0.70,Yes,0.92,Clear,0.70
+10255,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10256,No,1.00,N/A,0.55,N/A,1.00,N/A,0.55
+10271,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10273,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10277,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10282,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10284,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10285,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,N/A,0.55
+10287,Yes,1.00,N/A,0.55,Yes,0.90,N/A,0.55
+10292,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Misleading,0.70
+10300,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10304,Yes,1.00,more_than_5_years,0.70,Yes,1.00,Not Clear,0.70
+10309,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10317,Yes,1.00,more_than_5_years,0.70,Yes,1.00,Not Clear,0.70
+10325,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10346,Yes,1.00,N/A,0.55,Yes,0.99,Clear,0.70
+10351,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10356,Yes,1.00,between_2_and_5_years,0.70,Yes,0.53,Clear,0.70
+10364,Yes,1.00,more_than_5_years,0.70,Yes,0.98,Not Clear,0.70
+10373,Yes,1.00,more_than_5_years,0.70,Yes,0.96,Not Clear,0.70
+10381,No,1.00,N/A,0.70,N/A,1.00,N/A,0.70
+10382,Yes,1.00,N/A,0.55,Yes,0.95,N/A,0.55
+10387,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,N/A,0.55
+10391,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10396,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10404,Yes,1.00,N/A,0.55,No,0.58,N/A,0.55
+10405,Yes,1.00,N/A,0.55,No,1.00,N/A,0.55
+10407,No,1.00,N/A,0.55,N/A,0.80,N/A,0.55
+10408,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,N/A,0.55
+10413,Yes,1.00,N/A,0.55,No,1.00,N/A,0.55
+10415,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10426,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10428,No,0.96,N/A,0.55,N/A,1.00,N/A,0.55
+10433,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Misleading,0.70
+10450,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10470,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Not Clear,0.70
+10482,Yes,0.57,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10487,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10494,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10500,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10501,No,0.98,N/A,0.55,N/A,1.00,N/A,0.55
+10504,Yes,1.00,more_than_5_years,0.70,Yes,1.00,Not Clear,0.70
+10507,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10515,No,1.00,N/A,0.55,N/A,1.00,N/A,0.55
+10516,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10522,Yes,0.94,N/A,0.55,Yes,0.99,N/A,0.55
+10527,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10529,Yes,1.00,N/A,0.55,Yes,0.97,N/A,0.55
+10546,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Not Clear,0.70
+10548,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10568,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10570,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,N/A,0.55
+10600,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10601,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10609,No,0.95,N/A,0.70,N/A,1.00,N/A,0.55
+10610,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10611,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10617,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10620,Yes,1.00,already,0.70,Yes,1.00,N/A,0.55
+10623,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Clear,0.70
+10624,No,1.00,N/A,0.70,N/A,1.00,N/A,0.70
+10626,Yes,1.00,more_than_5_years,0.70,No,0.98,N/A,0.55
+10630,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10638,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10640,No,0.80,N/A,0.55,N/A,1.00,N/A,0.55
+10641,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10642,No,0.80,N/A,0.55,N/A,1.00,N/A,0.55
+10644,No,1.00,N/A,0.70,N/A,0.80,N/A,0.70
+10653,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10657,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Not Clear,0.70
+10659,No,0.64,N/A,0.55,N/A,0.80,N/A,0.55
+10660,No,1.00,N/A,0.70,N/A,1.00,N/A,0.55
+10670,No,0.99,N/A,0.55,N/A,1.00,N/A,0.55
+10672,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10682,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10686,Yes,1.00,N/A,0.55,No,1.00,N/A,0.55
+10689,Yes,1.00,more_than_5_years,0.70,Yes,0.99,N/A,0.55
+10694,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10695,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10696,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10706,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10713,No,0.98,N/A,0.55,N/A,1.00,N/A,0.55
+10715,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10716,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10732,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,N/A,0.55
+10737,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10745,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10749,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10756,Yes,1.00,N/A,0.55,Yes,0.82,N/A,0.55
+10759,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Clear,0.70
+10764,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10765,Yes,0.72,N/A,0.55,Yes,0.99,N/A,0.55
+10770,Yes,1.00,more_than_5_years,0.70,No,0.99,N/A,0.55
+10772,Yes,1.00,more_than_5_years,0.70,Yes,1.00,N/A,0.55
+10782,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10783,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Misleading,0.70
+10798,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Clear,0.70
+10800,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10803,Yes,1.00,N/A,0.55,Yes,0.91,N/A,0.55
+10806,No,1.00,N/A,0.55,N/A,1.00,N/A,0.55
+10812,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10813,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,N/A,0.55
+10815,Yes,1.00,N/A,0.55,Yes,0.98,N/A,0.55
+10822,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10825,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10830,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,Not Clear,0.70
+10838,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10841,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10842,Yes,1.00,between_2_and_5_years,0.70,Yes,0.93,Misleading,0.70
+10843,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10849,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Not Clear,0.70
+10850,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10859,No,0.87,N/A,0.70,N/A,1.00,N/A,0.55
+10864,No,0.80,N/A,0.55,N/A,1.00,N/A,0.55
+10869,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10872,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10874,Yes,1.00,between_2_and_5_years,0.70,Yes,0.97,N/A,0.55
+10880,Yes,1.00,already,0.70,Yes,1.00,N/A,0.55
+10882,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10884,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10886,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10889,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10907,Yes,1.00,N/A,0.55,Yes,1.00,N/A,0.55
+10910,Yes,1.00,N/A,0.55,Yes,0.97,N/A,0.55
+10911,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Not Clear,0.70
+10912,Yes,1.00,between_2_and_5_years,0.70,Yes,1.00,Clear,0.70
+10918,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10921,Yes,1.00,N/A,0.55,No,1.00,N/A,0.55
+10929,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10934,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10941,Yes,1.00,between_2_and_5_years,0.70,Yes,0.99,N/A,0.55
+10949,Yes,1.00,N/A,0.55,Yes,0.99,N/A,0.55
+10952,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10961,No,0.92,N/A,0.55,N/A,1.00,N/A,0.55
+10973,No,0.99,N/A,0.55,N/A,1.00,N/A,0.55
+10982,No,1.00,N/A,0.70,N/A,1.00,N/A,0.55
+10986,No,0.80,N/A,0.70,N/A,1.00,N/A,0.55
+10997,Yes,0.99,N/A,0.55,No,1.00,N/A,0.55
+10999,Yes,1.00,N/A,0.55,No,0.99,N/A,0.55
