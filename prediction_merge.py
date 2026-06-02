@@ -9,11 +9,11 @@ from sklearn.metrics import f1_score
 # 設定
 # =========================================
 
-WEEK="week14_1"
+WEEK="week14_5"
 BASE_DIR = f"dataset/week14/{WEEK}"
-VAL_FILE = f"{BASE_DIR}/val_grouped.csv"
+VAL_FILE = f"{BASE_DIR}/val_grouped.json"
 PRED1_FILE = f"{BASE_DIR}/bert/bert_prediction.csv"
-PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_{WEEK}.csv"
+PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_{WEEK}_with_confidence.csv"
 
 
 FIELDS = [
@@ -246,44 +246,59 @@ def validate_prediction_labels(pred_dict):
 # =========================================
 
 def get_weighted_f1(pred_dict, true_dict, name="Model"):
-    print(f"\nCalculating F1 for {name}...")
+    
+    print(f"\n==============================================")
+    print(f"📊 Calculating Macro F1 for {name}...")
+    print("==============================================")
+    
     field_scores = []
     macro_f1s = []
 
     for field, weight in zip(FIELDS, WEIGHTS):
-        y_true, y_pred = [], []
-        labels = LABELS_MAP[field]
+        y_true = []
+        y_pred = []
+        
+        labels = LABELS_MAP[field] 
 
         for doc_id, true_item in true_dict.items():
             pred_item = pred_dict.get(doc_id, {})
             
-            # 1. 取得真實標籤，若不存在則給予預設值
+            # --- 1. 取得真實標籤 (Ground Truth) ---
             true_val = true_item.get(field, DEFAULT_LABELS[field])
-            # 【核心修改】：如果真值是空字串 ""，自動對應轉換為 "N/A"
-            if true_val == "":
-                true_val = "N/A"
+            # 處理 pandas 讀取 CSV 可能產生的 NaN、空字串或 None
+            if pd.isna(true_val) or str(true_val).strip() in ["", "NaN", "nan", "None"]:
+                true_val = DEFAULT_LABELS[field]  # 依據你的設定轉換為 "N/A" 或 "No"
+            else:
+                true_val = str(true_val).strip()
                 
-            # 2. 取得預測標籤，若不存在則給予預設值
+            # --- 2. 取得預測標籤 (Prediction) ---
             pred_val = pred_item.get(field, DEFAULT_LABELS[field])
-            # （保險起見，如果預測結果也有出現 ""，也一併轉為 "N/A"）
-            if pred_val == "":
-                pred_val = "N/A"
+            if pd.isna(pred_val) or str(pred_val).strip() in ["", "NaN", "nan", "None"]:
+                pred_val = DEFAULT_LABELS[field]
+            else:
+                pred_val = str(pred_val).strip()
 
             y_true.append(true_val)
             y_pred.append(pred_val)
 
+        # --- 3. 嚴格執行官方的 Macro F1 計算 ---
+        # 傳入 labels=labels 確保分母固定（例如 evidence_quality 固定除以 4）
         score = f1_score(
-            y_true, y_pred,
-            labels=labels,
-            average="macro",
+            y_true, 
+            y_pred, 
+            labels=labels, 
+            average="macro", 
             zero_division=0
         )
 
         macro_f1s.append(score)
         field_scores.append(score * weight)
-        print(f" - [{field}] F1={score:.4f} (w={weight})")
+        print(f" - [{field}] Macro F1 = {score:.4f} (權重 = {weight})")
 
+    # 計算加權總分
     total_f1 = sum(field_scores)
+    print(f"➡️ {name} Final Weighted Score: {total_f1:.4f}")
+    
     return total_f1, macro_f1s
 def build_submission_df(pred_dict):
 
@@ -310,7 +325,7 @@ def main():
     print("Loading data...")
     print("==============================================")
 
-    val_data = load_csv_dict(VAL_FILE)
+    val_data = load_json_dict(VAL_FILE)
     pred1_dict = load_csv_dict(PRED1_FILE)
     pred2_dict = load_csv_dict(PRED2_FILE)
 
