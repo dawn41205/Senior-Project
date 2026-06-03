@@ -1,18 +1,18 @@
 {
   "split": "week14_1",
-  "created_at": "2026-06-02T04:23:23",
+  "created_at": "2026-06-02T23:54:43",
   "pipeline": "week14 formal-safe current architecture with fold-local PS/ES BERT",
-  "prediction_json": "E:\\project\\test510\\week14_runs\\week14_1\\LLM_pipeline_pred_week14_1.json",
-  "prediction_csv": "E:\\project\\test510\\week14_runs\\week14_1\\LLM_pipeline_pred_week14_1.csv",
-  "prediction_confidence_json": "E:\\project\\test510\\week14_runs\\week14_1\\LLM_pipeline_pred_week14_1_with_confidence.json",
-  "prediction_confidence_csv": "E:\\project\\test510\\week14_runs\\week14_1\\LLM_pipeline_pred_week14_1_with_confidence.csv",
-  "validation_report": "E:\\project\\test510\\week14_runs\\week14_1\\validation_report_week14_1.md",
-  "weighted_score": 0.4337045449391855,
+  "prediction_json": "E:\\project\\test510\\week14_structured_full_rerun_fresh\\week14_1\\LLM_pipeline_pred_week14_1.json",
+  "prediction_csv": "E:\\project\\test510\\week14_structured_full_rerun_fresh\\week14_1\\LLM_pipeline_pred_week14_1.csv",
+  "prediction_confidence_json": "E:\\project\\test510\\week14_structured_full_rerun_fresh\\week14_1\\LLM_pipeline_pred_week14_1_with_confidence.json",
+  "prediction_confidence_csv": "E:\\project\\test510\\week14_structured_full_rerun_fresh\\week14_1\\LLM_pipeline_pred_week14_1_with_confidence.csv",
+  "validation_report": "E:\\project\\test510\\week14_structured_full_rerun_fresh\\week14_1\\validation_report_week14_1.md",
+  "weighted_score": 0.6387752783900266,
   "field_scores": {
-    "promise_status": 0.8885172798216276,
-    "verification_timeline": 0.17722290242656205,
-    "evidence_status": 0.5757264957264957,
-    "evidence_quality": 0.161999156836934
+    "promise_status": 0.9097435897435897,
+    "verification_timeline": 0.5779033367733059,
+    "evidence_status": 0.6804517388105064,
+    "evidence_quality": 0.4743015379490311
   },
   "weights": {
     "promise_status": 0.2,
