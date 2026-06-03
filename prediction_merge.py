@@ -9,7 +9,7 @@ from sklearn.metrics import f1_score
 # 設定
 # =========================================
 
-WEEK="week14_5"
+WEEK="week14_1"
 BASE_DIR = f"dataset/week14/{WEEK}"
 VAL_FILE = f"{BASE_DIR}/val_grouped.json"
 PRED1_FILE = f"{BASE_DIR}/bert/bert_prediction.csv"
