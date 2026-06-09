@@ -9,11 +9,14 @@ from sklearn.metrics import f1_score
 # 設定
 # =========================================
 
-WEEK="week14_5"
-BASE_DIR = f"dataset/week14/{WEEK}"
-VAL_FILE = f"{BASE_DIR}/val_grouped.json"
-PRED1_FILE = f"{BASE_DIR}/bert/bert_prediction.csv"
-PRED2_FILE = f"{BASE_DIR}/LLM/LLM_pipeline_pred_{WEEK}_with_confidence.csv"
+WEEK="week15"
+BASE_DIR = f"dataset/{WEEK}/"
+VAL_FILE = f"dataset/vpesg4k_val_1000.json"
+pBERT= f"bert/1"
+pLLM=f"LLM/1"
+PRED1_FILE = f"{BASE_DIR}/{pBERT}/bert_prediction.csv"
+PRED2_FILE = f"{BASE_DIR}/{pLLM}/week15_val1000_confidence.csv"
+PRED3_FILE = f"{BASE_DIR}/merge/{pBERT} merge {pLLM}/prediction_merged.csv"
 
 
 FIELDS = [
@@ -364,14 +367,16 @@ def main():
     validate_prediction_labels(predicts_dict)
 
     # =========================================
-    # save
+    # save CSV (自動創建實體資料夾)
     # =========================================
 
     output_df = build_submission_df(predicts_dict)
-
     output_df = output_df.sort_values(by="id")
 
-    out_file = f"{BASE_DIR}/prediction_merged.csv"
+    out_file = Path(PRED3_FILE)
+    
+    # 這行會自動建立 dataset/week15/merge/{pBERT} and {pLLM}/ 這層資料夾
+    out_file.parent.mkdir(parents=True, exist_ok=True)
 
     output_df.to_csv(
         out_file,
@@ -511,13 +516,7 @@ def main():
     # =========================================
 
     plt.savefig(
-        f"{BASE_DIR}/f1_scores_comparison.png",
-        dpi=150,
-        bbox_inches='tight'
-    )
-
-    plt.savefig(
-        f"{BASE_DIR}/merge_f1_scores.png",
+        PRED3_FILE,
         dpi=150,
         bbox_inches='tight'
     )

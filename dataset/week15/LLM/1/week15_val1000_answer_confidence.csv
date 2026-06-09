@@ -1,4 +1,4 @@
-id,promise_status,verification_timeline,evidence_status,evidence_quality,verification_timeline_answer_confidence,evidence_quality_answer_confidence
+id,promise_status,verification_timeline,evidence_status,evidence_quality,verification_timeline_confidence,evidence_quality_confidence
 11001,Yes,already,Yes,Not Clear,0.547,0.087
 11002,Yes,between_2_and_5_years,No,N/A,0.424,0.707
 11003,Yes,already,No,N/A,0.547,0.691
