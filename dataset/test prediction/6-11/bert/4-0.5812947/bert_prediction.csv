@@ -1,0 +1,1001 @@
+﻿id,promise_status,verification_timeline,evidence_status,evidence_quality,promise_status_confidence,verification_timeline_confidence,evidence_status_confidence,evidence_quality_confidence
+11001,Yes,already,Yes,Clear,0.701,0.6,0.759,0.697
+11002,Yes,between_2_and_5_years,No,N/A,0.916,0.497,0.663,0.663
+11003,Yes,already,No,N/A,0.919,0.563,0.757,0.757
+11004,Yes,between_2_and_5_years,Yes,Clear,0.925,0.638,0.788,0.632
+11005,No,N/A,N/A,N/A,0.595,0.595,0.595,0.595
+11006,Yes,more_than_5_years,Yes,Not Clear,0.916,0.759,0.773,0.493
+11007,Yes,already,Yes,Clear,0.767,0.63,0.712,0.578
+11008,Yes,more_than_5_years,Yes,Not Clear,0.884,0.722,0.602,0.543
+11009,No,N/A,N/A,N/A,0.864,0.864,0.864,0.864
+11010,Yes,already,Yes,Clear,0.691,0.691,0.714,0.721
+11011,Yes,already,Yes,Clear,0.931,0.449,0.83,0.528
+11012,Yes,already,Yes,Not Clear,0.917,0.547,0.62,0.67
+11013,No,N/A,N/A,N/A,0.978,0.978,0.978,0.978
+11014,Yes,already,Yes,Clear,0.913,0.567,0.861,0.615
+11015,Yes,already,Yes,Clear,0.907,0.656,0.791,0.74
+11016,Yes,between_2_and_5_years,No,N/A,0.824,0.765,0.907,0.907
+11017,No,N/A,N/A,N/A,0.932,0.932,0.932,0.932
+11018,No,N/A,N/A,N/A,0.663,0.663,0.663,0.663
+11019,Yes,already,Yes,Clear,0.914,0.551,0.74,0.54
+11020,No,N/A,N/A,N/A,0.976,0.976,0.976,0.976
+11021,Yes,between_2_and_5_years,Yes,Clear,0.91,0.45,0.872,0.738
+11022,Yes,more_than_5_years,Yes,Not Clear,0.931,0.76,0.779,0.499
+11023,No,N/A,N/A,N/A,0.617,0.617,0.617,0.617
+11024,No,N/A,N/A,N/A,0.976,0.976,0.976,0.976
+11025,Yes,between_2_and_5_years,No,N/A,0.933,0.499,0.62,0.62
+11026,Yes,already,Yes,Clear,0.906,0.43,0.821,0.588
+11027,Yes,more_than_5_years,Yes,Not Clear,0.935,0.707,0.576,0.453
+11028,Yes,between_2_and_5_years,Yes,Clear,0.927,0.601,0.811,0.515
+11029,Yes,more_than_5_years,Yes,Not Clear,0.903,0.511,0.691,0.501
+11030,Yes,between_2_and_5_years,No,N/A,0.747,0.542,0.945,0.945
+11031,Yes,already,Yes,Clear,0.871,0.555,0.792,0.619
+11032,Yes,between_2_and_5_years,No,N/A,0.783,0.601,0.513,0.513
+11033,Yes,already,Yes,Clear,0.916,0.404,0.859,0.647
+11034,Yes,more_than_5_years,Yes,Not Clear,0.919,0.857,0.729,0.748
+11035,Yes,already,Yes,Clear,0.889,0.657,0.833,0.751
+11036,Yes,more_than_5_years,Yes,Clear,0.919,0.865,0.8,0.579
+11037,No,N/A,N/A,N/A,0.827,0.827,0.827,0.827
+11038,Yes,more_than_5_years,Yes,Clear,0.926,0.86,0.721,0.489
+11039,Yes,between_2_and_5_years,Yes,Not Clear,0.896,0.66,0.868,0.628
+11040,Yes,between_2_and_5_years,Yes,Not Clear,0.916,0.666,0.826,0.746
+11041,Yes,between_2_and_5_years,Yes,Clear,0.897,0.628,0.801,0.692
+11042,Yes,between_2_and_5_years,Yes,Not Clear,0.915,0.573,0.816,0.621
+11043,Yes,between_2_and_5_years,Yes,Clear,0.917,0.428,0.881,0.576
+11044,No,N/A,N/A,N/A,0.814,0.814,0.814,0.814
+11045,Yes,between_2_and_5_years,Yes,Clear,0.905,0.629,0.847,0.636
+11046,Yes,between_2_and_5_years,Yes,Not Clear,0.919,0.675,0.605,0.76
+11047,Yes,between_2_and_5_years,No,N/A,0.866,0.694,0.928,0.928
+11048,Yes,between_2_and_5_years,No,N/A,0.89,0.643,0.921,0.921
+11049,Yes,between_2_and_5_years,No,N/A,0.876,0.647,0.94,0.94
+11050,No,N/A,N/A,N/A,0.968,0.968,0.968,0.968
+11051,Yes,between_2_and_5_years,Yes,Not Clear,0.915,0.736,0.75,0.85
+11052,Yes,between_2_and_5_years,No,N/A,0.746,0.631,0.912,0.912
+11053,Yes,more_than_5_years,Yes,Not Clear,0.921,0.559,0.521,0.786
+11054,Yes,already,No,N/A,0.783,0.458,0.635,0.635
+11055,Yes,already,Yes,Clear,0.913,0.471,0.888,0.748
+11056,Yes,more_than_5_years,Yes,Clear,0.904,0.82,0.724,0.721
+11057,Yes,more_than_5_years,Yes,Clear,0.922,0.506,0.803,0.65
+11058,Yes,between_2_and_5_years,Yes,Not Clear,0.925,0.697,0.682,0.732
+11059,No,N/A,N/A,N/A,0.509,0.509,0.509,0.509
+11060,Yes,between_2_and_5_years,Yes,Clear,0.91,0.627,0.826,0.487
+11061,Yes,between_2_and_5_years,Yes,Clear,0.917,0.437,0.85,0.727
+11062,Yes,already,Yes,Clear,0.897,0.74,0.666,0.619
+11063,Yes,between_2_and_5_years,Yes,Clear,0.939,0.485,0.769,0.55
+11064,Yes,more_than_5_years,No,N/A,0.926,0.452,0.762,0.762
+11065,Yes,between_2_and_5_years,Yes,Clear,0.892,0.6,0.822,0.655
+11066,Yes,between_2_and_5_years,No,N/A,0.916,0.673,0.695,0.695
+11067,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11068,Yes,between_2_and_5_years,No,N/A,0.765,0.624,0.926,0.926
+11069,Yes,already,Yes,Clear,0.911,0.614,0.852,0.647
+11070,No,N/A,N/A,N/A,0.587,0.587,0.587,0.587
+11071,Yes,already,Yes,Clear,0.925,0.475,0.799,0.529
+11072,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11073,Yes,already,Yes,Not Clear,0.914,0.474,0.596,0.705
+11074,Yes,more_than_5_years,Yes,Clear,0.924,0.422,0.839,0.665
+11075,Yes,more_than_5_years,No,N/A,0.923,0.562,0.688,0.688
+11076,Yes,more_than_5_years,Yes,Clear,0.919,0.795,0.823,0.636
+11077,Yes,between_2_and_5_years,Yes,Not Clear,0.907,0.649,0.805,0.594
+11078,Yes,more_than_5_years,Yes,Clear,0.894,0.739,0.805,0.576
+11079,Yes,between_2_and_5_years,Yes,Clear,0.919,0.548,0.757,0.712
+11080,Yes,already,Yes,Clear,0.92,0.442,0.848,0.721
+11081,Yes,between_2_and_5_years,Yes,Not Clear,0.906,0.759,0.498,0.794
+11082,Yes,more_than_5_years,Yes,Not Clear,0.921,0.611,0.793,0.633
+11083,Yes,between_2_and_5_years,Yes,Not Clear,0.914,0.611,0.738,0.481
+11084,Yes,between_2_and_5_years,Yes,Not Clear,0.885,0.587,0.604,0.557
+11085,Yes,between_2_and_5_years,Yes,Not Clear,0.931,0.485,0.637,0.814
+11086,Yes,already,Yes,Clear,0.907,0.505,0.745,0.542
+11087,Yes,between_2_and_5_years,Yes,Not Clear,0.927,0.729,0.577,0.793
+11088,Yes,already,Yes,Clear,0.701,0.698,0.675,0.65
+11089,Yes,already,Yes,Clear,0.916,0.471,0.837,0.635
+11090,No,N/A,N/A,N/A,0.958,0.958,0.958,0.958
+11091,Yes,between_2_and_5_years,Yes,Clear,0.885,0.731,0.609,0.484
+11092,Yes,more_than_5_years,Yes,Clear,0.906,0.678,0.873,0.696
+11093,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11094,Yes,between_2_and_5_years,No,N/A,0.83,0.568,0.953,0.953
+11095,Yes,already,Yes,Clear,0.698,0.734,0.675,0.693
+11096,Yes,already,Yes,Clear,0.888,0.477,0.764,0.728
+11097,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11098,Yes,already,Yes,Clear,0.887,0.527,0.754,0.753
+11099,Yes,already,Yes,Clear,0.911,0.507,0.832,0.624
+11100,Yes,already,Yes,Not Clear,0.926,0.465,0.752,0.756
+11101,Yes,more_than_5_years,Yes,Clear,0.907,0.724,0.844,0.67
+11102,Yes,between_2_and_5_years,Yes,Not Clear,0.906,0.521,0.59,0.742
+11103,No,N/A,N/A,N/A,0.976,0.976,0.976,0.976
+11104,No,N/A,N/A,N/A,0.967,0.967,0.967,0.967
+11105,Yes,already,Yes,Clear,0.85,0.636,0.817,0.735
+11106,Yes,between_2_and_5_years,No,N/A,0.921,0.763,0.662,0.662
+11107,Yes,already,Yes,Clear,0.872,0.638,0.791,0.817
+11108,Yes,already,Yes,Not Clear,0.895,0.531,0.836,0.585
+11109,Yes,already,Yes,Clear,0.905,0.636,0.696,0.562
+11110,Yes,already,Yes,Clear,0.918,0.529,0.861,0.665
+11111,Yes,between_2_and_5_years,No,N/A,0.859,0.703,0.938,0.938
+11112,No,N/A,N/A,N/A,0.684,0.684,0.684,0.684
+11113,Yes,between_2_and_5_years,Yes,Clear,0.913,0.47,0.836,0.612
+11114,Yes,between_2_and_5_years,Yes,Clear,0.905,0.436,0.876,0.66
+11115,Yes,more_than_5_years,Yes,Clear,0.913,0.875,0.759,0.6
+11116,Yes,between_2_and_5_years,Yes,Not Clear,0.924,0.475,0.768,0.642
+11117,Yes,between_2_and_5_years,No,N/A,0.924,0.562,0.539,0.539
+11118,Yes,already,No,N/A,0.93,0.405,0.817,0.817
+11119,Yes,between_2_and_5_years,No,N/A,0.895,0.545,0.679,0.679
+11120,Yes,between_2_and_5_years,No,N/A,0.887,0.78,0.525,0.525
+11121,Yes,more_than_5_years,Yes,Clear,0.904,0.636,0.874,0.702
+11122,Yes,between_2_and_5_years,Yes,Clear,0.905,0.497,0.871,0.639
+11123,No,N/A,N/A,N/A,0.607,0.607,0.607,0.607
+11124,Yes,already,Yes,Clear,0.913,0.486,0.557,0.603
+11125,Yes,between_2_and_5_years,Yes,Clear,0.862,0.48,0.83,0.744
+11126,No,N/A,N/A,N/A,0.971,0.971,0.971,0.971
+11127,Yes,more_than_5_years,Yes,Clear,0.917,0.568,0.846,0.628
+11128,Yes,already,No,N/A,0.903,0.508,0.867,0.867
+11129,Yes,already,Yes,Clear,0.922,0.583,0.843,0.589
+11130,Yes,between_2_and_5_years,Yes,Not Clear,0.917,0.752,0.506,0.666
+11131,No,N/A,N/A,N/A,0.96,0.96,0.96,0.96
+11132,Yes,between_2_and_5_years,Yes,Not Clear,0.921,0.617,0.825,0.555
+11133,Yes,between_2_and_5_years,Yes,Clear,0.919,0.59,0.746,0.724
+11134,Yes,more_than_5_years,No,N/A,0.853,0.578,0.949,0.949
+11135,Yes,between_2_and_5_years,Yes,Clear,0.929,0.369,0.514,0.65
+11136,Yes,more_than_5_years,Yes,Clear,0.923,0.889,0.683,0.472
+11137,Yes,already,Yes,Clear,0.873,0.765,0.813,0.787
+11138,Yes,between_2_and_5_years,Yes,Not Clear,0.916,0.541,0.849,0.526
+11139,Yes,more_than_5_years,Yes,Clear,0.93,0.548,0.833,0.535
+11140,Yes,between_2_and_5_years,Yes,Not Clear,0.903,0.626,0.779,0.756
+11141,Yes,within_2_years,Yes,Clear,0.894,0.71,0.529,0.722
+11142,Yes,between_2_and_5_years,Yes,Clear,0.91,0.385,0.809,0.795
+11143,Yes,already,Yes,Clear,0.915,0.511,0.823,0.777
+11144,Yes,between_2_and_5_years,No,N/A,0.858,0.662,0.944,0.944
+11145,Yes,between_2_and_5_years,Yes,Not Clear,0.917,0.65,0.729,0.855
+11146,Yes,more_than_5_years,Yes,Clear,0.914,0.553,0.854,0.718
+11147,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11148,Yes,already,Yes,Clear,0.919,0.448,0.854,0.619
+11149,Yes,between_2_and_5_years,No,N/A,0.901,0.682,0.553,0.553
+11150,Yes,between_2_and_5_years,Yes,Not Clear,0.877,0.525,0.797,0.548
+11151,Yes,between_2_and_5_years,No,N/A,0.911,0.761,0.682,0.682
+11152,Yes,between_2_and_5_years,Yes,Clear,0.907,0.595,0.806,0.633
+11153,Yes,between_2_and_5_years,Yes,Not Clear,0.916,0.614,0.707,0.822
+11154,Yes,more_than_5_years,Yes,Clear,0.915,0.608,0.831,0.603
+11155,Yes,already,Yes,Clear,0.909,0.384,0.88,0.655
+11156,No,N/A,N/A,N/A,0.977,0.977,0.977,0.977
+11157,Yes,already,Yes,Clear,0.902,0.542,0.867,0.673
+11158,Yes,between_2_and_5_years,Yes,Clear,0.911,0.481,0.818,0.811
+11159,Yes,already,Yes,Clear,0.87,0.714,0.797,0.682
+11160,Yes,already,Yes,Clear,0.508,0.469,0.53,0.595
+11161,Yes,between_2_and_5_years,Yes,Clear,0.926,0.547,0.814,0.614
+11162,Yes,already,Yes,Clear,0.899,0.417,0.829,0.756
+11163,No,N/A,N/A,N/A,0.967,0.967,0.967,0.967
+11164,Yes,already,Yes,Clear,0.928,0.461,0.848,0.673
+11165,Yes,more_than_5_years,Yes,Clear,0.933,0.464,0.807,0.75
+11166,Yes,more_than_5_years,Yes,Clear,0.895,0.701,0.849,0.501
+11167,Yes,already,Yes,Clear,0.89,0.723,0.837,0.68
+11168,Yes,between_2_and_5_years,Yes,Clear,0.913,0.571,0.797,0.745
+11169,Yes,between_2_and_5_years,Yes,Clear,0.912,0.575,0.826,0.764
+11170,Yes,already,Yes,Clear,0.847,0.553,0.729,0.634
+11171,Yes,already,Yes,Clear,0.922,0.656,0.806,0.571
+11172,Yes,already,Yes,Clear,0.904,0.608,0.807,0.593
+11173,Yes,more_than_5_years,Yes,Not Clear,0.915,0.849,0.782,0.682
+11174,Yes,between_2_and_5_years,Yes,Clear,0.903,0.648,0.809,0.561
+11175,No,N/A,N/A,N/A,0.975,0.975,0.975,0.975
+11176,Yes,between_2_and_5_years,No,N/A,0.889,0.705,0.864,0.864
+11177,Yes,between_2_and_5_years,Yes,Clear,0.802,0.514,0.558,0.664
+11178,Yes,already,Yes,Clear,0.9,0.672,0.727,0.649
+11179,Yes,more_than_5_years,Yes,Not Clear,0.911,0.593,0.827,0.747
+11180,Yes,already,Yes,Clear,0.908,0.556,0.844,0.614
+11181,Yes,more_than_5_years,Yes,Not Clear,0.906,0.894,0.788,0.498
+11182,Yes,between_2_and_5_years,Yes,Not Clear,0.926,0.485,0.636,0.555
+11183,Yes,already,Yes,Clear,0.918,0.57,0.823,0.58
+11184,Yes,more_than_5_years,Yes,Clear,0.906,0.455,0.857,0.709
+11185,Yes,between_2_and_5_years,Yes,Not Clear,0.912,0.449,0.607,0.473
+11186,Yes,already,Yes,Clear,0.831,0.633,0.804,0.797
+11187,Yes,more_than_5_years,No,N/A,0.826,0.777,0.701,0.701
+11188,Yes,already,Yes,Not Clear,0.884,0.403,0.721,0.511
+11189,Yes,between_2_and_5_years,Yes,Clear,0.935,0.645,0.591,0.533
+11190,Yes,between_2_and_5_years,Yes,Clear,0.915,0.5,0.868,0.711
+11191,Yes,between_2_and_5_years,No,N/A,0.877,0.662,0.928,0.928
+11192,Yes,already,Yes,Clear,0.909,0.745,0.808,0.743
+11193,Yes,more_than_5_years,Yes,Not Clear,0.921,0.557,0.86,0.671
+11194,Yes,already,Yes,Not Clear,0.918,0.494,0.617,0.695
+11195,Yes,between_2_and_5_years,Yes,Clear,0.787,0.495,0.584,0.642
+11196,Yes,already,Yes,Clear,0.898,0.539,0.797,0.619
+11197,Yes,between_2_and_5_years,Yes,Clear,0.928,0.627,0.775,0.567
+11198,Yes,already,Yes,Clear,0.924,0.459,0.803,0.758
+11199,Yes,between_2_and_5_years,Yes,Not Clear,0.919,0.527,0.77,0.504
+11200,Yes,between_2_and_5_years,No,N/A,0.891,0.544,0.93,0.93
+11201,Yes,already,Yes,Clear,0.813,0.679,0.772,0.78
+11202,Yes,more_than_5_years,Yes,Clear,0.901,0.583,0.854,0.74
+11203,Yes,more_than_5_years,No,N/A,0.917,0.686,0.888,0.888
+11204,Yes,more_than_5_years,Yes,Not Clear,0.92,0.852,0.763,0.602
+11205,Yes,already,Yes,Clear,0.902,0.452,0.854,0.611
+11206,Yes,between_2_and_5_years,No,N/A,0.889,0.659,0.893,0.893
+11207,No,N/A,N/A,N/A,0.749,0.749,0.749,0.749
+11208,No,N/A,N/A,N/A,0.977,0.977,0.977,0.977
+11209,Yes,already,Yes,Clear,0.826,0.485,0.791,0.826
+11210,Yes,already,Yes,Not Clear,0.896,0.454,0.622,0.547
+11211,Yes,more_than_5_years,Yes,Not Clear,0.918,0.72,0.782,0.659
+11212,Yes,more_than_5_years,Yes,Clear,0.91,0.574,0.855,0.644
+11213,Yes,more_than_5_years,Yes,Clear,0.913,0.727,0.861,0.649
+11214,No,N/A,N/A,N/A,0.89,0.89,0.89,0.89
+11215,Yes,between_2_and_5_years,Yes,Clear,0.915,0.56,0.831,0.696
+11216,Yes,already,Yes,Clear,0.905,0.654,0.805,0.678
+11217,Yes,between_2_and_5_years,Yes,Not Clear,0.904,0.582,0.567,0.839
+11218,No,N/A,N/A,N/A,0.972,0.972,0.972,0.972
+11219,Yes,between_2_and_5_years,Yes,Not Clear,0.934,0.472,0.752,0.818
+11220,Yes,more_than_5_years,Yes,Clear,0.91,0.703,0.87,0.67
+11221,Yes,between_2_and_5_years,No,N/A,0.923,0.732,0.783,0.783
+11222,Yes,more_than_5_years,No,N/A,0.914,0.896,0.61,0.61
+11223,No,N/A,N/A,N/A,0.933,0.933,0.933,0.933
+11224,Yes,already,Yes,Clear,0.929,0.676,0.798,0.65
+11225,Yes,between_2_and_5_years,Yes,Not Clear,0.908,0.6,0.812,0.6
+11226,Yes,between_2_and_5_years,Yes,Clear,0.678,0.441,0.596,0.635
+11227,Yes,already,Yes,Clear,0.786,0.74,0.769,0.76
+11228,Yes,already,Yes,Clear,0.862,0.649,0.819,0.697
+11229,Yes,between_2_and_5_years,No,N/A,0.872,0.728,0.915,0.915
+11230,Yes,more_than_5_years,Yes,Clear,0.902,0.886,0.745,0.507
+11231,No,N/A,N/A,N/A,0.929,0.929,0.929,0.929
+11232,Yes,more_than_5_years,No,N/A,0.86,0.426,0.783,0.783
+11233,Yes,between_2_and_5_years,No,N/A,0.909,0.695,0.83,0.83
+11234,No,N/A,N/A,N/A,0.978,0.978,0.978,0.978
+11235,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11236,Yes,already,Yes,Clear,0.83,0.587,0.743,0.669
+11237,Yes,between_2_and_5_years,Yes,Clear,0.892,0.48,0.82,0.61
+11238,No,N/A,N/A,N/A,0.911,0.911,0.911,0.911
+11239,Yes,more_than_5_years,Yes,Not Clear,0.925,0.613,0.628,0.753
+11240,Yes,between_2_and_5_years,Yes,Clear,0.929,0.49,0.775,0.592
+11241,Yes,already,Yes,Clear,0.844,0.693,0.829,0.701
+11242,Yes,already,Yes,Not Clear,0.924,0.377,0.864,0.492
+11243,Yes,already,Yes,Clear,0.909,0.554,0.848,0.797
+11244,Yes,already,Yes,Clear,0.858,0.472,0.682,0.66
+11245,Yes,already,Yes,Clear,0.91,0.565,0.876,0.683
+11246,Yes,already,Yes,Clear,0.727,0.698,0.718,0.735
+11247,Yes,more_than_5_years,Yes,Clear,0.922,0.715,0.856,0.584
+11248,No,N/A,N/A,N/A,0.873,0.873,0.873,0.873
+11249,Yes,between_2_and_5_years,Yes,Not Clear,0.92,0.61,0.705,0.627
+11250,Yes,already,Yes,Clear,0.912,0.54,0.85,0.632
+11251,Yes,already,Yes,Clear,0.891,0.578,0.808,0.776
+11252,Yes,between_2_and_5_years,No,N/A,0.928,0.569,0.608,0.608
+11253,Yes,more_than_5_years,Yes,Clear,0.922,0.777,0.798,0.582
+11254,Yes,between_2_and_5_years,No,N/A,0.892,0.365,0.944,0.944
+11255,Yes,more_than_5_years,No,N/A,0.909,0.937,0.505,0.505
+11256,No,N/A,N/A,N/A,0.823,0.823,0.823,0.823
+11257,No,N/A,N/A,N/A,0.962,0.962,0.962,0.962
+11258,Yes,between_2_and_5_years,Yes,Not Clear,0.849,0.521,0.698,0.593
+11259,Yes,already,No,N/A,0.809,0.459,0.536,0.536
+11260,Yes,between_2_and_5_years,Yes,Not Clear,0.912,0.559,0.577,0.472
+11261,Yes,between_2_and_5_years,Yes,Not Clear,0.887,0.646,0.63,0.747
+11262,No,N/A,N/A,N/A,0.966,0.966,0.966,0.966
+11263,No,N/A,N/A,N/A,0.912,0.912,0.912,0.912
+11264,Yes,between_2_and_5_years,Yes,Clear,0.904,0.511,0.87,0.547
+11265,Yes,between_2_and_5_years,Yes,Clear,0.916,0.499,0.825,0.74
+11266,Yes,already,Yes,Clear,0.917,0.479,0.834,0.718
+11267,Yes,between_2_and_5_years,No,N/A,0.909,0.408,0.922,0.922
+11268,Yes,between_2_and_5_years,Yes,Clear,0.902,0.535,0.84,0.57
+11269,Yes,already,Yes,Clear,0.902,0.625,0.778,0.621
+11270,Yes,already,Yes,Not Clear,0.893,0.507,0.49,0.495
+11271,Yes,between_2_and_5_years,Yes,Clear,0.926,0.526,0.859,0.537
+11272,Yes,already,No,N/A,0.894,0.443,0.625,0.625
+11273,Yes,already,Yes,Clear,0.914,0.566,0.86,0.645
+11274,Yes,already,Yes,Clear,0.885,0.492,0.724,0.656
+11275,Yes,already,Yes,Clear,0.922,0.433,0.872,0.632
+11276,Yes,between_2_and_5_years,Yes,Clear,0.927,0.447,0.823,0.701
+11277,Yes,already,Yes,Clear,0.897,0.567,0.836,0.654
+11278,No,N/A,N/A,N/A,0.975,0.975,0.975,0.975
+11279,Yes,already,Yes,Clear,0.887,0.415,0.872,0.819
+11280,Yes,between_2_and_5_years,Yes,Clear,0.922,0.703,0.748,0.476
+11281,Yes,already,Yes,Clear,0.909,0.602,0.849,0.802
+11282,Yes,already,Yes,Clear,0.9,0.626,0.806,0.745
+11283,Yes,between_2_and_5_years,Yes,Clear,0.931,0.481,0.764,0.61
+11284,Yes,between_2_and_5_years,Yes,Not Clear,0.905,0.673,0.814,0.704
+11285,Yes,already,Yes,Clear,0.834,0.69,0.812,0.81
+11286,Yes,between_2_and_5_years,Yes,Clear,0.9,0.516,0.831,0.748
+11287,Yes,between_2_and_5_years,No,N/A,0.923,0.679,0.539,0.539
+11288,Yes,already,No,N/A,0.902,0.467,0.659,0.659
+11289,Yes,more_than_5_years,Yes,Clear,0.905,0.615,0.778,0.546
+11290,No,N/A,N/A,N/A,0.975,0.975,0.975,0.975
+11291,Yes,more_than_5_years,Yes,Clear,0.922,0.832,0.764,0.486
+11292,Yes,between_2_and_5_years,Yes,Clear,0.882,0.567,0.846,0.639
+11293,No,N/A,N/A,N/A,0.914,0.914,0.914,0.914
+11294,Yes,more_than_5_years,Yes,Not Clear,0.923,0.636,0.81,0.675
+11295,Yes,between_2_and_5_years,No,N/A,0.858,0.662,0.853,0.853
+11296,No,N/A,N/A,N/A,0.966,0.966,0.966,0.966
+11297,Yes,between_2_and_5_years,Yes,Clear,0.909,0.522,0.83,0.538
+11298,Yes,already,Yes,Clear,0.899,0.534,0.836,0.604
+11299,Yes,more_than_5_years,Yes,Clear,0.915,0.632,0.823,0.568
+11300,Yes,between_2_and_5_years,No,N/A,0.901,0.82,0.57,0.57
+11301,Yes,more_than_5_years,Yes,Not Clear,0.917,0.721,0.874,0.543
+11302,No,N/A,N/A,N/A,0.966,0.966,0.966,0.966
+11303,Yes,between_2_and_5_years,Yes,Not Clear,0.926,0.669,0.675,0.7
+11304,Yes,already,Yes,Clear,0.859,0.577,0.835,0.797
+11305,Yes,already,Yes,Clear,0.897,0.582,0.85,0.753
+11306,Yes,already,Yes,Not Clear,0.927,0.532,0.768,0.53
+11307,Yes,already,Yes,Clear,0.911,0.647,0.831,0.668
+11308,Yes,between_2_and_5_years,No,N/A,0.885,0.796,0.782,0.782
+11309,Yes,between_2_and_5_years,Yes,Clear,0.905,0.446,0.829,0.79
+11310,Yes,between_2_and_5_years,No,N/A,0.889,0.692,0.901,0.901
+11311,Yes,already,Yes,Clear,0.901,0.494,0.815,0.557
+11312,Yes,already,Yes,Clear,0.923,0.448,0.87,0.578
+11313,No,N/A,N/A,N/A,0.936,0.936,0.936,0.936
+11314,Yes,between_2_and_5_years,No,N/A,0.747,0.362,0.93,0.93
+11315,Yes,between_2_and_5_years,Yes,Clear,0.908,0.563,0.844,0.577
+11316,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11317,Yes,already,Yes,Not Clear,0.922,0.593,0.74,0.498
+11318,Yes,more_than_5_years,Yes,Not Clear,0.916,0.826,0.824,0.515
+11319,Yes,between_2_and_5_years,Yes,Not Clear,0.922,0.459,0.836,0.625
+11320,Yes,between_2_and_5_years,No,N/A,0.925,0.538,0.832,0.832
+11321,No,N/A,N/A,N/A,0.941,0.941,0.941,0.941
+11322,Yes,already,No,N/A,0.858,0.343,0.958,0.958
+11323,Yes,more_than_5_years,Yes,Clear,0.925,0.695,0.785,0.52
+11324,Yes,more_than_5_years,No,N/A,0.887,0.749,0.927,0.927
+11325,Yes,more_than_5_years,Yes,Clear,0.921,0.546,0.872,0.651
+11326,Yes,within_2_years,Yes,Clear,0.874,0.553,0.557,0.78
+11327,No,N/A,N/A,N/A,0.964,0.964,0.964,0.964
+11328,Yes,between_2_and_5_years,No,N/A,0.861,0.689,0.94,0.94
+11329,Yes,more_than_5_years,Yes,Clear,0.901,0.77,0.789,0.507
+11330,Yes,more_than_5_years,Yes,Not Clear,0.923,0.869,0.731,0.538
+11331,Yes,already,Yes,Not Clear,0.919,0.508,0.829,0.52
+11332,Yes,between_2_and_5_years,Yes,Clear,0.911,0.678,0.755,0.824
+11333,Yes,more_than_5_years,Yes,Clear,0.937,0.542,0.787,0.596
+11334,Yes,between_2_and_5_years,No,N/A,0.895,0.732,0.883,0.883
+11335,Yes,already,Yes,Clear,0.886,0.46,0.861,0.538
+11336,Yes,between_2_and_5_years,Yes,Clear,0.886,0.459,0.842,0.63
+11337,No,N/A,N/A,N/A,0.962,0.962,0.962,0.962
+11338,Yes,more_than_5_years,Yes,Not Clear,0.913,0.894,0.776,0.518
+11339,Yes,more_than_5_years,Yes,Clear,0.911,0.692,0.842,0.716
+11340,Yes,more_than_5_years,No,N/A,0.894,0.914,0.554,0.554
+11341,Yes,between_2_and_5_years,No,N/A,0.916,0.604,0.823,0.823
+11342,Yes,between_2_and_5_years,Yes,Clear,0.915,0.569,0.833,0.686
+11343,Yes,between_2_and_5_years,No,N/A,0.895,0.748,0.867,0.867
+11344,No,N/A,N/A,N/A,0.976,0.976,0.976,0.976
+11345,Yes,already,Yes,Clear,0.895,0.705,0.737,0.688
+11346,Yes,more_than_5_years,No,N/A,0.842,0.658,0.631,0.631
+11347,Yes,between_2_and_5_years,No,N/A,0.915,0.687,0.598,0.598
+11348,Yes,already,Yes,Clear,0.923,0.588,0.847,0.744
+11349,Yes,already,Yes,Clear,0.652,0.564,0.623,0.701
+11350,Yes,more_than_5_years,No,N/A,0.903,0.91,0.757,0.757
+11351,Yes,already,Yes,Clear,0.906,0.511,0.881,0.644
+11352,Yes,already,Yes,Not Clear,0.923,0.443,0.846,0.715
+11353,Yes,between_2_and_5_years,Yes,Not Clear,0.922,0.573,0.751,0.711
+11354,No,N/A,N/A,N/A,0.972,0.972,0.972,0.972
+11355,Yes,already,Yes,Clear,0.92,0.411,0.865,0.661
+11356,Yes,between_2_and_5_years,Yes,Clear,0.912,0.381,0.822,0.83
+11357,Yes,between_2_and_5_years,Yes,Not Clear,0.911,0.59,0.784,0.819
+11358,Yes,more_than_5_years,Yes,Clear,0.911,0.681,0.853,0.635
+11359,Yes,more_than_5_years,Yes,Clear,0.92,0.533,0.722,0.657
+11360,Yes,already,Yes,Clear,0.907,0.526,0.824,0.731
+11361,No,N/A,N/A,N/A,0.933,0.933,0.933,0.933
+11362,No,N/A,N/A,N/A,0.731,0.731,0.731,0.731
+11363,Yes,more_than_5_years,Yes,Clear,0.846,0.768,0.692,0.697
+11364,Yes,already,Yes,Clear,0.893,0.684,0.794,0.485
+11365,Yes,between_2_and_5_years,No,N/A,0.874,0.746,0.884,0.884
+11366,Yes,more_than_5_years,Yes,Not Clear,0.928,0.37,0.843,0.638
+11367,Yes,already,Yes,Clear,0.914,0.489,0.877,0.72
+11368,Yes,more_than_5_years,Yes,Not Clear,0.919,0.617,0.724,0.641
+11369,No,N/A,N/A,N/A,0.977,0.977,0.977,0.977
+11370,Yes,between_2_and_5_years,Yes,Not Clear,0.908,0.604,0.831,0.745
+11371,Yes,between_2_and_5_years,Yes,Clear,0.713,0.488,0.581,0.492
+11372,Yes,between_2_and_5_years,Yes,Not Clear,0.916,0.593,0.72,0.476
+11373,Yes,between_2_and_5_years,No,N/A,0.873,0.754,0.921,0.921
+11374,Yes,more_than_5_years,No,N/A,0.92,0.84,0.737,0.737
+11375,Yes,between_2_and_5_years,No,N/A,0.838,0.544,0.906,0.906
+11376,No,N/A,N/A,N/A,0.919,0.919,0.919,0.919
+11377,Yes,already,Yes,Clear,0.778,0.58,0.789,0.809
+11378,Yes,already,Yes,Not Clear,0.839,0.475,0.583,0.563
+11379,Yes,between_2_and_5_years,No,N/A,0.919,0.589,0.538,0.538
+11380,Yes,already,Yes,Not Clear,0.857,0.562,0.681,0.676
+11381,No,N/A,N/A,N/A,0.968,0.968,0.968,0.968
+11382,Yes,between_2_and_5_years,Yes,Not Clear,0.913,0.562,0.738,0.499
+11383,Yes,already,Yes,Not Clear,0.944,0.393,0.625,0.518
+11384,Yes,already,Yes,Clear,0.933,0.443,0.754,0.605
+11385,Yes,more_than_5_years,Yes,Not Clear,0.918,0.731,0.727,0.641
+11386,Yes,between_2_and_5_years,Yes,Not Clear,0.918,0.56,0.493,0.744
+11387,Yes,already,Yes,Not Clear,0.925,0.621,0.696,0.754
+11388,No,N/A,N/A,N/A,0.977,0.977,0.977,0.977
+11389,Yes,more_than_5_years,No,N/A,0.889,0.861,0.678,0.678
+11390,Yes,more_than_5_years,Yes,Clear,0.887,0.567,0.66,0.6
+11391,Yes,already,Yes,Not Clear,0.875,0.499,0.622,0.441
+11392,Yes,between_2_and_5_years,Yes,Clear,0.907,0.506,0.877,0.541
+11393,Yes,between_2_and_5_years,Yes,Clear,0.921,0.382,0.873,0.661
+11394,Yes,between_2_and_5_years,Yes,Not Clear,0.909,0.631,0.633,0.713
+11395,Yes,more_than_5_years,Yes,Clear,0.919,0.518,0.87,0.632
+11396,Yes,already,Yes,Not Clear,0.919,0.585,0.776,0.53
+11397,Yes,more_than_5_years,Yes,Clear,0.915,0.606,0.869,0.674
+11398,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11399,No,N/A,N/A,N/A,0.968,0.968,0.968,0.968
+11400,Yes,more_than_5_years,Yes,Clear,0.928,0.488,0.835,0.515
+11401,Yes,between_2_and_5_years,No,N/A,0.882,0.562,0.576,0.576
+11402,Yes,already,Yes,Not Clear,0.864,0.489,0.816,0.514
+11403,Yes,already,Yes,Clear,0.905,0.479,0.812,0.674
+11404,Yes,already,Yes,Clear,0.84,0.519,0.699,0.74
+11405,No,N/A,N/A,N/A,0.975,0.975,0.975,0.975
+11406,Yes,already,Yes,Clear,0.914,0.389,0.876,0.652
+11407,Yes,already,Yes,Clear,0.917,0.556,0.867,0.747
+11408,No,N/A,N/A,N/A,0.91,0.91,0.91,0.91
+11409,Yes,more_than_5_years,Yes,Clear,0.911,0.861,0.686,0.593
+11410,Yes,already,Yes,Clear,0.853,0.589,0.818,0.556
+11411,Yes,more_than_5_years,Yes,Clear,0.909,0.543,0.874,0.73
+11412,Yes,between_2_and_5_years,No,N/A,0.919,0.693,0.613,0.613
+11413,Yes,between_2_and_5_years,Yes,Clear,0.908,0.487,0.883,0.622
+11414,Yes,between_2_and_5_years,Yes,Not Clear,0.933,0.491,0.737,0.576
+11415,Yes,between_2_and_5_years,Yes,Not Clear,0.922,0.481,0.824,0.549
+11416,Yes,between_2_and_5_years,No,N/A,0.888,0.716,0.82,0.82
+11417,Yes,already,Yes,Clear,0.879,0.591,0.809,0.794
+11418,Yes,more_than_5_years,Yes,Not Clear,0.898,0.546,0.624,0.515
+11419,No,N/A,N/A,N/A,0.818,0.818,0.818,0.818
+11420,Yes,already,Yes,Not Clear,0.889,0.474,0.848,0.67
+11421,Yes,more_than_5_years,Yes,Clear,0.917,0.624,0.772,0.618
+11422,Yes,more_than_5_years,Yes,Not Clear,0.925,0.775,0.746,0.571
+11423,Yes,between_2_and_5_years,Yes,Clear,0.906,0.518,0.859,0.512
+11424,Yes,between_2_and_5_years,No,N/A,0.908,0.683,0.715,0.715
+11425,Yes,already,Yes,Clear,0.84,0.541,0.818,0.652
+11426,Yes,already,Yes,Clear,0.888,0.701,0.824,0.778
+11427,No,N/A,N/A,N/A,0.965,0.965,0.965,0.965
+11428,Yes,between_2_and_5_years,No,N/A,0.894,0.382,0.707,0.707
+11429,Yes,between_2_and_5_years,No,N/A,0.857,0.584,0.792,0.792
+11430,Yes,already,Yes,Clear,0.906,0.732,0.8,0.609
+11431,Yes,between_2_and_5_years,No,N/A,0.891,0.637,0.789,0.789
+11432,Yes,between_2_and_5_years,Yes,Clear,0.863,0.525,0.834,0.734
+11433,Yes,already,Yes,Clear,0.907,0.504,0.827,0.698
+11434,Yes,between_2_and_5_years,Yes,Not Clear,0.937,0.733,0.696,0.786
+11435,Yes,already,No,N/A,0.91,0.488,0.583,0.583
+11436,Yes,between_2_and_5_years,No,N/A,0.884,0.662,0.653,0.653
+11437,Yes,already,Yes,Clear,0.916,0.456,0.817,0.737
+11438,Yes,more_than_5_years,Yes,Not Clear,0.919,0.809,0.829,0.59
+11439,Yes,between_2_and_5_years,Yes,Not Clear,0.886,0.611,0.841,0.507
+11440,Yes,between_2_and_5_years,No,N/A,0.887,0.719,0.906,0.906
+11441,Yes,more_than_5_years,Yes,Clear,0.86,0.532,0.755,0.716
+11442,Yes,already,Yes,Clear,0.918,0.44,0.865,0.802
+11443,Yes,already,Yes,Not Clear,0.931,0.591,0.634,0.643
+11444,Yes,between_2_and_5_years,Yes,Not Clear,0.916,0.642,0.824,0.625
+11445,Yes,between_2_and_5_years,Yes,Not Clear,0.92,0.518,0.806,0.59
+11446,Yes,between_2_and_5_years,No,N/A,0.912,0.733,0.696,0.696
+11447,Yes,more_than_5_years,Yes,Clear,0.919,0.72,0.837,0.62
+11448,Yes,already,Yes,Not Clear,0.869,0.498,0.728,0.521
+11449,Yes,more_than_5_years,Yes,Clear,0.927,0.42,0.864,0.568
+11450,Yes,already,Yes,Clear,0.912,0.504,0.823,0.635
+11451,Yes,between_2_and_5_years,Yes,Not Clear,0.938,0.437,0.735,0.478
+11452,Yes,between_2_and_5_years,No,N/A,0.876,0.646,0.917,0.917
+11453,No,N/A,N/A,N/A,0.966,0.966,0.966,0.966
+11454,Yes,already,Yes,Clear,0.912,0.437,0.839,0.631
+11455,Yes,already,Yes,Clear,0.922,0.469,0.849,0.58
+11456,Yes,between_2_and_5_years,Yes,Not Clear,0.912,0.696,0.798,0.738
+11457,Yes,between_2_and_5_years,Yes,Not Clear,0.921,0.44,0.859,0.52
+11458,Yes,between_2_and_5_years,Yes,Clear,0.86,0.513,0.804,0.528
+11459,Yes,already,Yes,Clear,0.879,0.724,0.777,0.637
+11460,No,N/A,N/A,N/A,0.907,0.907,0.907,0.907
+11461,Yes,between_2_and_5_years,Yes,Not Clear,0.845,0.493,0.491,0.528
+11462,Yes,already,Yes,Clear,0.877,0.542,0.84,0.604
+11463,Yes,more_than_5_years,Yes,Clear,0.91,0.411,0.885,0.752
+11464,Yes,already,Yes,Clear,0.922,0.62,0.848,0.662
+11465,Yes,between_2_and_5_years,No,N/A,0.557,0.499,0.85,0.85
+11466,Yes,between_2_and_5_years,Yes,Not Clear,0.912,0.643,0.856,0.728
+11467,Yes,more_than_5_years,Yes,Clear,0.913,0.557,0.838,0.714
+11468,Yes,more_than_5_years,Yes,Clear,0.919,0.688,0.833,0.539
+11469,Yes,between_2_and_5_years,No,N/A,0.651,0.546,0.683,0.683
+11470,Yes,more_than_5_years,Yes,Clear,0.92,0.827,0.809,0.592
+11471,No,N/A,N/A,N/A,0.513,0.513,0.513,0.513
+11472,Yes,more_than_5_years,Yes,Clear,0.915,0.574,0.852,0.532
+11473,Yes,already,Yes,Clear,0.893,0.51,0.848,0.649
+11474,Yes,already,Yes,Clear,0.899,0.504,0.846,0.566
+11475,Yes,already,Yes,Clear,0.772,0.737,0.749,0.797
+11476,Yes,more_than_5_years,Yes,Clear,0.895,0.709,0.849,0.584
+11477,Yes,between_2_and_5_years,No,N/A,0.828,0.628,0.519,0.519
+11478,No,N/A,N/A,N/A,0.971,0.971,0.971,0.971
+11479,Yes,already,Yes,Not Clear,0.925,0.381,0.867,0.53
+11480,No,N/A,N/A,N/A,0.82,0.82,0.82,0.82
+11481,Yes,already,Yes,Clear,0.813,0.631,0.787,0.718
+11482,Yes,already,Yes,Clear,0.9,0.541,0.855,0.803
+11483,Yes,already,Yes,Clear,0.916,0.541,0.868,0.577
+11484,No,N/A,N/A,N/A,0.976,0.976,0.976,0.976
+11485,Yes,between_2_and_5_years,Yes,Clear,0.885,0.61,0.839,0.757
+11486,Yes,already,Yes,Clear,0.914,0.582,0.864,0.826
+11487,No,N/A,N/A,N/A,0.971,0.971,0.971,0.971
+11488,Yes,between_2_and_5_years,No,N/A,0.905,0.689,0.876,0.876
+11489,Yes,already,Yes,Clear,0.916,0.437,0.88,0.629
+11490,Yes,already,Yes,Clear,0.9,0.675,0.852,0.784
+11491,Yes,already,Yes,Clear,0.909,0.386,0.832,0.717
+11492,Yes,more_than_5_years,Yes,Clear,0.904,0.812,0.851,0.548
+11493,Yes,between_2_and_5_years,Yes,Not Clear,0.899,0.769,0.742,0.773
+11494,Yes,more_than_5_years,Yes,Clear,0.905,0.493,0.795,0.72
+11495,Yes,more_than_5_years,Yes,Clear,0.923,0.349,0.833,0.739
+11496,Yes,more_than_5_years,Yes,Not Clear,0.93,0.86,0.732,0.678
+11497,Yes,already,Yes,Clear,0.89,0.616,0.87,0.649
+11498,Yes,already,Yes,Clear,0.917,0.526,0.865,0.664
+11499,No,N/A,N/A,N/A,0.971,0.971,0.971,0.971
+11500,Yes,between_2_and_5_years,No,N/A,0.765,0.569,0.833,0.833
+11501,Yes,between_2_and_5_years,No,N/A,0.895,0.814,0.906,0.906
+11502,Yes,within_2_years,No,N/A,0.893,0.53,0.578,0.578
+11503,No,N/A,N/A,N/A,0.929,0.929,0.929,0.929
+11504,Yes,between_2_and_5_years,Yes,Not Clear,0.878,0.563,0.683,0.828
+11505,Yes,between_2_and_5_years,Yes,Clear,0.931,0.456,0.83,0.699
+11506,No,N/A,N/A,N/A,0.864,0.864,0.864,0.864
+11507,Yes,between_2_and_5_years,No,N/A,0.804,0.483,0.941,0.941
+11508,Yes,already,Yes,Clear,0.919,0.604,0.776,0.65
+11509,Yes,more_than_5_years,No,N/A,0.917,0.637,0.64,0.64
+11510,Yes,between_2_and_5_years,Yes,Clear,0.901,0.451,0.677,0.615
+11511,Yes,more_than_5_years,No,N/A,0.901,0.943,0.496,0.496
+11512,Yes,more_than_5_years,Yes,Clear,0.914,0.427,0.88,0.649
+11513,Yes,between_2_and_5_years,Yes,Not Clear,0.935,0.46,0.59,0.85
+11514,Yes,more_than_5_years,Yes,Clear,0.802,0.669,0.633,0.519
+11515,Yes,more_than_5_years,Yes,Not Clear,0.902,0.846,0.789,0.496
+11516,Yes,already,Yes,Clear,0.922,0.593,0.846,0.493
+11517,Yes,more_than_5_years,Yes,Clear,0.896,0.57,0.825,0.762
+11518,Yes,between_2_and_5_years,Yes,Not Clear,0.9,0.673,0.64,0.828
+11519,Yes,already,Yes,Clear,0.905,0.505,0.813,0.74
+11520,Yes,more_than_5_years,Yes,Not Clear,0.902,0.728,0.545,0.664
+11521,Yes,already,Yes,Clear,0.895,0.498,0.843,0.74
+11522,Yes,between_2_and_5_years,No,N/A,0.925,0.484,0.582,0.582
+11523,Yes,already,Yes,Clear,0.653,0.535,0.603,0.619
+11524,Yes,more_than_5_years,No,N/A,0.905,0.544,0.604,0.604
+11525,Yes,between_2_and_5_years,No,N/A,0.923,0.483,0.738,0.738
+11526,Yes,already,Yes,Clear,0.823,0.489,0.759,0.812
+11527,Yes,already,Yes,Clear,0.903,0.563,0.857,0.784
+11528,Yes,more_than_5_years,Yes,Clear,0.885,0.741,0.83,0.699
+11529,Yes,already,Yes,Clear,0.904,0.444,0.819,0.63
+11530,Yes,more_than_5_years,Yes,Not Clear,0.942,0.576,0.498,0.505
+11531,Yes,more_than_5_years,Yes,Clear,0.917,0.694,0.87,0.613
+11532,Yes,between_2_and_5_years,Yes,Clear,0.911,0.497,0.667,0.617
+11533,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11534,Yes,more_than_5_years,Yes,Clear,0.902,0.878,0.804,0.529
+11535,Yes,between_2_and_5_years,Yes,Clear,0.922,0.513,0.866,0.505
+11536,Yes,between_2_and_5_years,Yes,Not Clear,0.928,0.427,0.821,0.769
+11537,Yes,between_2_and_5_years,Yes,Not Clear,0.921,0.528,0.775,0.569
+11538,Yes,more_than_5_years,Yes,Clear,0.918,0.536,0.803,0.552
+11539,Yes,more_than_5_years,Yes,Not Clear,0.933,0.583,0.829,0.634
+11540,Yes,between_2_and_5_years,Yes,Not Clear,0.871,0.522,0.769,0.705
+11541,Yes,more_than_5_years,Yes,Clear,0.92,0.523,0.855,0.548
+11542,No,N/A,N/A,N/A,0.693,0.693,0.693,0.693
+11543,Yes,between_2_and_5_years,Yes,Not Clear,0.924,0.559,0.771,0.764
+11544,Yes,already,Yes,Clear,0.892,0.524,0.837,0.714
+11545,Yes,between_2_and_5_years,Yes,Clear,0.902,0.358,0.818,0.672
+11546,Yes,already,Yes,Clear,0.792,0.785,0.671,0.691
+11547,Yes,already,Yes,Clear,0.915,0.472,0.871,0.768
+11548,Yes,more_than_5_years,Yes,Not Clear,0.931,0.44,0.828,0.66
+11549,Yes,more_than_5_years,Yes,Not Clear,0.923,0.76,0.789,0.507
+11550,Yes,already,Yes,Clear,0.907,0.608,0.844,0.756
+11551,Yes,between_2_and_5_years,Yes,Clear,0.93,0.516,0.786,0.495
+11552,Yes,between_2_and_5_years,Yes,Not Clear,0.919,0.717,0.631,0.803
+11553,Yes,between_2_and_5_years,Yes,Not Clear,0.916,0.719,0.631,0.637
+11554,Yes,already,Yes,Clear,0.895,0.546,0.842,0.808
+11555,Yes,more_than_5_years,Yes,Clear,0.863,0.768,0.775,0.605
+11556,Yes,already,Yes,Clear,0.924,0.531,0.87,0.553
+11557,No,N/A,N/A,N/A,0.71,0.71,0.71,0.71
+11558,Yes,more_than_5_years,Yes,Clear,0.921,0.731,0.818,0.619
+11559,Yes,more_than_5_years,Yes,Clear,0.915,0.462,0.837,0.733
+11560,Yes,already,Yes,Clear,0.914,0.467,0.833,0.723
+11561,Yes,between_2_and_5_years,No,N/A,0.864,0.606,0.718,0.718
+11562,Yes,between_2_and_5_years,Yes,Not Clear,0.723,0.62,0.541,0.545
+11563,No,N/A,N/A,N/A,0.97,0.97,0.97,0.97
+11564,Yes,already,Yes,Not Clear,0.864,0.501,0.598,0.56
+11565,Yes,more_than_5_years,Yes,Clear,0.909,0.881,0.771,0.58
+11566,No,N/A,N/A,N/A,0.967,0.967,0.967,0.967
+11567,Yes,more_than_5_years,Yes,Not Clear,0.904,0.906,0.722,0.503
+11568,Yes,more_than_5_years,Yes,Clear,0.842,0.539,0.67,0.488
+11569,Yes,already,Yes,Clear,0.774,0.773,0.57,0.565
+11570,Yes,between_2_and_5_years,No,N/A,0.923,0.438,0.704,0.704
+11571,Yes,between_2_and_5_years,Yes,Not Clear,0.916,0.724,0.564,0.775
+11572,Yes,between_2_and_5_years,Yes,Clear,0.908,0.516,0.867,0.593
+11573,Yes,already,Yes,Clear,0.907,0.635,0.845,0.654
+11574,Yes,already,Yes,Clear,0.925,0.369,0.86,0.693
+11575,Yes,already,Yes,Clear,0.843,0.725,0.782,0.692
+11576,Yes,already,Yes,Not Clear,0.9,0.494,0.716,0.809
+11577,Yes,between_2_and_5_years,Yes,Not Clear,0.906,0.637,0.559,0.742
+11578,No,N/A,N/A,N/A,0.85,0.85,0.85,0.85
+11579,Yes,between_2_and_5_years,Yes,Not Clear,0.837,0.501,0.592,0.534
+11580,Yes,between_2_and_5_years,No,N/A,0.759,0.632,0.939,0.939
+11581,Yes,already,Yes,Clear,0.895,0.714,0.837,0.705
+11582,No,N/A,N/A,N/A,0.97,0.97,0.97,0.97
+11583,Yes,between_2_and_5_years,No,N/A,0.888,0.7,0.913,0.913
+11584,Yes,already,Yes,Not Clear,0.832,0.418,0.569,0.613
+11585,Yes,between_2_and_5_years,Yes,Clear,0.915,0.481,0.862,0.731
+11586,No,N/A,N/A,N/A,0.971,0.971,0.971,0.971
+11587,Yes,already,Yes,Clear,0.877,0.535,0.786,0.803
+11588,Yes,more_than_5_years,Yes,Clear,0.923,0.383,0.852,0.736
+11589,No,N/A,N/A,N/A,0.971,0.971,0.971,0.971
+11590,Yes,already,Yes,Not Clear,0.929,0.498,0.803,0.542
+11591,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11592,Yes,already,No,N/A,0.888,0.545,0.87,0.87
+11593,Yes,between_2_and_5_years,Yes,Not Clear,0.923,0.583,0.733,0.62
+11594,Yes,already,Yes,Clear,0.849,0.534,0.56,0.521
+11595,Yes,more_than_5_years,Yes,Clear,0.932,0.66,0.768,0.531
+11596,Yes,more_than_5_years,Yes,Not Clear,0.923,0.912,0.712,0.625
+11597,Yes,already,Yes,Clear,0.725,0.614,0.743,0.733
+11598,Yes,more_than_5_years,Yes,Clear,0.915,0.52,0.858,0.664
+11599,Yes,already,Yes,Clear,0.913,0.389,0.828,0.733
+11600,Yes,between_2_and_5_years,Yes,Not Clear,0.888,0.674,0.788,0.487
+11601,Yes,between_2_and_5_years,Yes,Clear,0.834,0.435,0.707,0.539
+11602,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11603,Yes,already,Yes,Clear,0.927,0.454,0.867,0.609
+11604,No,N/A,N/A,N/A,0.667,0.667,0.667,0.667
+11605,Yes,between_2_and_5_years,Yes,Not Clear,0.9,0.675,0.777,0.645
+11606,Yes,between_2_and_5_years,Yes,Clear,0.872,0.644,0.818,0.638
+11607,Yes,more_than_5_years,Yes,Not Clear,0.921,0.655,0.644,0.59
+11608,Yes,between_2_and_5_years,Yes,Clear,0.897,0.473,0.863,0.617
+11609,Yes,already,Yes,Clear,0.885,0.683,0.765,0.514
+11610,Yes,more_than_5_years,Yes,Clear,0.904,0.74,0.856,0.654
+11611,Yes,already,Yes,Clear,0.837,0.553,0.793,0.555
+11612,No,N/A,N/A,N/A,0.94,0.94,0.94,0.94
+11613,Yes,already,Yes,Clear,0.909,0.588,0.801,0.639
+11614,Yes,already,Yes,Clear,0.927,0.439,0.874,0.561
+11615,Yes,already,Yes,Clear,0.916,0.488,0.848,0.548
+11616,Yes,more_than_5_years,No,N/A,0.928,0.831,0.765,0.765
+11617,Yes,more_than_5_years,Yes,Clear,0.91,0.433,0.839,0.668
+11618,Yes,already,Yes,Clear,0.891,0.609,0.856,0.764
+11619,Yes,between_2_and_5_years,Yes,Not Clear,0.922,0.593,0.766,0.814
+11620,Yes,more_than_5_years,Yes,Clear,0.894,0.556,0.834,0.701
+11621,Yes,already,Yes,Clear,0.898,0.567,0.77,0.801
+11622,No,N/A,N/A,N/A,0.803,0.803,0.803,0.803
+11623,Yes,between_2_and_5_years,Yes,Clear,0.874,0.479,0.83,0.596
+11624,No,N/A,N/A,N/A,0.872,0.872,0.872,0.872
+11625,Yes,between_2_and_5_years,Yes,Clear,0.895,0.693,0.555,0.603
+11626,Yes,between_2_and_5_years,No,N/A,0.901,0.691,0.792,0.792
+11627,Yes,more_than_5_years,Yes,Clear,0.902,0.688,0.707,0.552
+11628,Yes,already,Yes,Clear,0.909,0.49,0.832,0.712
+11629,Yes,more_than_5_years,Yes,Clear,0.919,0.554,0.879,0.597
+11630,Yes,more_than_5_years,Yes,Clear,0.926,0.739,0.825,0.529
+11631,Yes,between_2_and_5_years,Yes,Not Clear,0.897,0.551,0.795,0.628
+11632,Yes,between_2_and_5_years,Yes,Clear,0.895,0.71,0.805,0.6
+11633,Yes,more_than_5_years,Yes,Not Clear,0.919,0.523,0.778,0.524
+11634,Yes,more_than_5_years,Yes,Not Clear,0.894,0.878,0.537,0.52
+11635,No,N/A,N/A,N/A,0.961,0.961,0.961,0.961
+11636,Yes,already,Yes,Clear,0.918,0.624,0.845,0.562
+11637,No,N/A,N/A,N/A,0.84,0.84,0.84,0.84
+11638,Yes,between_2_and_5_years,Yes,Clear,0.922,0.503,0.856,0.506
+11639,Yes,between_2_and_5_years,Yes,Not Clear,0.908,0.558,0.868,0.508
+11640,No,N/A,N/A,N/A,0.953,0.953,0.953,0.953
+11641,Yes,more_than_5_years,Yes,Clear,0.916,0.712,0.816,0.619
+11642,Yes,already,Yes,Not Clear,0.894,0.565,0.63,0.521
+11643,Yes,between_2_and_5_years,Yes,Not Clear,0.909,0.493,0.721,0.696
+11644,Yes,between_2_and_5_years,No,N/A,0.9,0.693,0.882,0.882
+11645,No,N/A,N/A,N/A,0.97,0.97,0.97,0.97
+11646,Yes,already,Yes,Not Clear,0.911,0.46,0.761,0.751
+11647,Yes,already,Yes,Clear,0.919,0.604,0.823,0.672
+11648,Yes,more_than_5_years,Yes,Clear,0.92,0.518,0.819,0.613
+11649,Yes,between_2_and_5_years,Yes,Not Clear,0.937,0.44,0.734,0.872
+11650,Yes,between_2_and_5_years,Yes,Not Clear,0.904,0.605,0.85,0.723
+11651,Yes,more_than_5_years,No,N/A,0.926,0.819,0.612,0.612
+11652,No,N/A,N/A,N/A,0.956,0.956,0.956,0.956
+11653,Yes,already,Yes,Clear,0.902,0.635,0.791,0.732
+11654,Yes,more_than_5_years,Yes,Not Clear,0.938,0.795,0.591,0.798
+11655,No,N/A,N/A,N/A,0.965,0.965,0.965,0.965
+11656,Yes,between_2_and_5_years,Yes,Clear,0.903,0.615,0.554,0.765
+11657,Yes,between_2_and_5_years,Yes,Clear,0.922,0.415,0.858,0.511
+11658,Yes,already,Yes,Not Clear,0.905,0.607,0.566,0.687
+11659,Yes,more_than_5_years,Yes,Not Clear,0.925,0.842,0.77,0.603
+11660,Yes,between_2_and_5_years,Yes,Not Clear,0.929,0.48,0.596,0.738
+11661,Yes,more_than_5_years,Yes,Not Clear,0.924,0.339,0.596,0.481
+11662,Yes,between_2_and_5_years,No,N/A,0.895,0.727,0.831,0.831
+11663,Yes,more_than_5_years,Yes,Clear,0.851,0.71,0.718,0.522
+11664,No,N/A,N/A,N/A,0.951,0.951,0.951,0.951
+11665,Yes,between_2_and_5_years,Yes,Not Clear,0.875,0.515,0.601,0.65
+11666,Yes,more_than_5_years,Yes,Clear,0.918,0.716,0.834,0.634
+11667,Yes,more_than_5_years,No,N/A,0.895,0.506,0.898,0.898
+11668,Yes,between_2_and_5_years,Yes,Not Clear,0.885,0.631,0.857,0.709
+11669,No,N/A,N/A,N/A,0.949,0.949,0.949,0.949
+11670,Yes,between_2_and_5_years,No,N/A,0.854,0.709,0.559,0.559
+11671,Yes,already,Yes,Not Clear,0.919,0.535,0.849,0.498
+11672,Yes,more_than_5_years,Yes,Clear,0.916,0.411,0.884,0.606
+11673,Yes,already,Yes,Clear,0.885,0.606,0.84,0.728
+11674,Yes,already,Yes,Clear,0.912,0.6,0.842,0.731
+11675,Yes,more_than_5_years,Yes,Not Clear,0.913,0.451,0.869,0.548
+11676,No,N/A,N/A,N/A,0.967,0.967,0.967,0.967
+11677,Yes,already,Yes,Clear,0.905,0.54,0.855,0.56
+11678,No,N/A,N/A,N/A,0.963,0.963,0.963,0.963
+11679,Yes,already,Yes,Clear,0.906,0.679,0.83,0.79
+11680,Yes,already,Yes,Clear,0.903,0.546,0.844,0.822
+11681,Yes,between_2_and_5_years,No,N/A,0.777,0.603,0.912,0.912
+11682,Yes,between_2_and_5_years,No,N/A,0.709,0.579,0.609,0.609
+11683,Yes,between_2_and_5_years,Yes,Not Clear,0.933,0.546,0.664,0.665
+11684,No,N/A,N/A,N/A,0.942,0.942,0.942,0.942
+11685,Yes,within_2_years,Yes,Clear,0.893,0.63,0.703,0.739
+11686,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11687,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11688,Yes,already,Yes,Clear,0.918,0.523,0.855,0.539
+11689,Yes,within_2_years,No,N/A,0.88,0.7,0.498,0.498
+11690,Yes,more_than_5_years,Yes,Clear,0.906,0.579,0.869,0.647
+11691,Yes,between_2_and_5_years,No,N/A,0.927,0.679,0.581,0.581
+11692,Yes,more_than_5_years,Yes,Not Clear,0.927,0.593,0.773,0.559
+11693,Yes,already,Yes,Clear,0.891,0.374,0.815,0.792
+11694,Yes,within_2_years,No,N/A,0.848,0.821,0.504,0.504
+11695,Yes,already,Yes,Clear,0.899,0.573,0.836,0.64
+11696,Yes,between_2_and_5_years,Yes,Not Clear,0.913,0.539,0.838,0.737
+11697,Yes,between_2_and_5_years,No,N/A,0.846,0.631,0.832,0.832
+11698,Yes,already,Yes,Clear,0.918,0.54,0.767,0.558
+11699,Yes,already,Yes,Clear,0.884,0.694,0.852,0.745
+11700,Yes,more_than_5_years,Yes,Not Clear,0.919,0.632,0.832,0.511
+11701,Yes,more_than_5_years,Yes,Clear,0.908,0.571,0.845,0.656
+11702,Yes,more_than_5_years,Yes,Not Clear,0.91,0.616,0.745,0.682
+11703,Yes,between_2_and_5_years,Yes,Not Clear,0.917,0.561,0.829,0.567
+11704,Yes,already,Yes,Not Clear,0.92,0.496,0.864,0.564
+11705,Yes,between_2_and_5_years,Yes,Not Clear,0.907,0.641,0.847,0.789
+11706,Yes,already,Yes,Clear,0.922,0.459,0.849,0.653
+11707,Yes,between_2_and_5_years,No,N/A,0.915,0.77,0.635,0.635
+11708,Yes,more_than_5_years,Yes,Clear,0.92,0.644,0.842,0.597
+11709,Yes,between_2_and_5_years,Yes,Clear,0.896,0.582,0.787,0.718
+11710,No,N/A,N/A,N/A,0.941,0.941,0.941,0.941
+11711,Yes,already,Yes,Clear,0.924,0.595,0.832,0.703
+11712,Yes,more_than_5_years,Yes,Not Clear,0.906,0.353,0.86,0.6
+11713,Yes,between_2_and_5_years,Yes,Clear,0.885,0.591,0.685,0.626
+11714,Yes,already,No,N/A,0.915,0.357,0.548,0.548
+11715,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11716,Yes,between_2_and_5_years,Yes,Clear,0.914,0.464,0.836,0.537
+11717,No,N/A,N/A,N/A,0.933,0.933,0.933,0.933
+11718,Yes,between_2_and_5_years,Yes,Clear,0.892,0.481,0.81,0.622
+11719,Yes,already,Yes,Clear,0.903,0.565,0.857,0.637
+11720,Yes,already,Yes,Clear,0.87,0.631,0.819,0.557
+11721,Yes,already,Yes,Clear,0.904,0.538,0.845,0.809
+11722,Yes,already,Yes,Clear,0.89,0.661,0.823,0.814
+11723,Yes,more_than_5_years,Yes,Clear,0.909,0.634,0.868,0.694
+11724,Yes,between_2_and_5_years,No,N/A,0.874,0.574,0.919,0.919
+11725,Yes,already,Yes,Clear,0.875,0.655,0.833,0.787
+11726,Yes,more_than_5_years,Yes,Not Clear,0.907,0.81,0.819,0.536
+11727,Yes,between_2_and_5_years,Yes,Not Clear,0.927,0.694,0.573,0.804
+11728,Yes,already,Yes,Not Clear,0.901,0.565,0.837,0.52
+11729,Yes,between_2_and_5_years,No,N/A,0.904,0.65,0.653,0.653
+11730,Yes,more_than_5_years,Yes,Not Clear,0.923,0.863,0.556,0.648
+11731,Yes,already,Yes,Not Clear,0.929,0.49,0.788,0.686
+11732,Yes,between_2_and_5_years,Yes,Not Clear,0.921,0.435,0.524,0.668
+11733,No,N/A,N/A,N/A,0.977,0.977,0.977,0.977
+11734,No,N/A,N/A,N/A,0.975,0.975,0.975,0.975
+11735,Yes,between_2_and_5_years,Yes,Clear,0.905,0.538,0.825,0.655
+11736,No,N/A,N/A,N/A,0.966,0.966,0.966,0.966
+11737,No,N/A,N/A,N/A,0.977,0.977,0.977,0.977
+11738,Yes,between_2_and_5_years,N/A,N/A,0.596,0.572,0.394,0.394
+11739,Yes,more_than_5_years,No,N/A,0.931,0.541,0.576,0.576
+11740,Yes,already,Yes,Clear,0.933,0.574,0.836,0.586
+11741,Yes,between_2_and_5_years,No,N/A,0.93,0.408,0.625,0.625
+11742,Yes,already,Yes,Clear,0.908,0.531,0.872,0.769
+11743,Yes,between_2_and_5_years,No,N/A,0.919,0.566,0.701,0.701
+11744,Yes,between_2_and_5_years,No,N/A,0.922,0.757,0.509,0.509
+11745,Yes,between_2_and_5_years,No,N/A,0.91,0.712,0.649,0.649
+11746,Yes,between_2_and_5_years,Yes,Clear,0.943,0.605,0.69,0.577
+11747,Yes,already,Yes,Clear,0.729,0.456,0.569,0.61
+11748,Yes,already,Yes,Clear,0.888,0.555,0.801,0.688
+11749,Yes,already,Yes,Clear,0.713,0.584,0.739,0.779
+11750,Yes,more_than_5_years,Yes,Clear,0.922,0.471,0.864,0.669
+11751,Yes,already,Yes,Clear,0.89,0.63,0.731,0.72
+11752,Yes,between_2_and_5_years,Yes,Not Clear,0.933,0.599,0.668,0.642
+11753,Yes,between_2_and_5_years,Yes,Not Clear,0.928,0.554,0.547,0.659
+11754,Yes,already,Yes,Clear,0.924,0.501,0.824,0.677
+11755,Yes,more_than_5_years,Yes,Clear,0.921,0.741,0.743,0.694
+11756,Yes,between_2_and_5_years,Yes,Clear,0.898,0.481,0.813,0.599
+11757,Yes,already,Yes,Clear,0.679,0.628,0.628,0.599
+11758,Yes,already,Yes,Clear,0.876,0.691,0.828,0.843
+11759,Yes,already,Yes,Not Clear,0.899,0.489,0.549,0.599
+11760,Yes,already,Yes,Clear,0.902,0.539,0.837,0.752
+11761,Yes,between_2_and_5_years,Yes,Not Clear,0.929,0.746,0.588,0.807
+11762,Yes,more_than_5_years,Yes,Not Clear,0.924,0.382,0.873,0.51
+11763,No,N/A,N/A,N/A,0.978,0.978,0.978,0.978
+11764,Yes,already,Yes,Clear,0.908,0.465,0.85,0.707
+11765,Yes,already,No,N/A,0.927,0.493,0.72,0.72
+11766,Yes,between_2_and_5_years,Yes,Not Clear,0.89,0.716,0.526,0.84
+11767,Yes,between_2_and_5_years,No,N/A,0.891,0.665,0.829,0.829
+11768,Yes,more_than_5_years,Yes,Not Clear,0.92,0.355,0.874,0.494
+11769,Yes,between_2_and_5_years,No,N/A,0.9,0.695,0.737,0.737
+11770,Yes,between_2_and_5_years,Yes,Clear,0.854,0.716,0.718,0.654
+11771,Yes,already,Yes,Clear,0.914,0.575,0.717,0.607
+11772,Yes,between_2_and_5_years,No,N/A,0.911,0.753,0.741,0.741
+11773,Yes,more_than_5_years,Yes,Clear,0.908,0.785,0.832,0.512
+11774,Yes,already,Yes,Clear,0.914,0.369,0.852,0.712
+11775,No,N/A,N/A,N/A,0.624,0.624,0.624,0.624
+11776,Yes,already,Yes,Clear,0.912,0.453,0.873,0.769
+11777,Yes,already,Yes,Clear,0.919,0.403,0.85,0.624
+11778,Yes,between_2_and_5_years,Yes,Clear,0.902,0.496,0.811,0.788
+11779,Yes,between_2_and_5_years,No,N/A,0.863,0.668,0.906,0.906
+11780,No,N/A,N/A,N/A,0.832,0.832,0.832,0.832
+11781,Yes,more_than_5_years,No,N/A,0.919,0.611,0.531,0.531
+11782,Yes,between_2_and_5_years,Yes,Not Clear,0.926,0.744,0.733,0.625
+11783,Yes,between_2_and_5_years,No,N/A,0.902,0.734,0.733,0.733
+11784,Yes,between_2_and_5_years,No,N/A,0.92,0.669,0.705,0.705
+11785,Yes,more_than_5_years,No,N/A,0.93,0.623,0.58,0.58
+11786,Yes,already,Yes,Clear,0.846,0.733,0.831,0.751
+11787,Yes,more_than_5_years,Yes,Not Clear,0.917,0.759,0.852,0.51
+11788,Yes,more_than_5_years,No,N/A,0.907,0.889,0.533,0.533
+11789,Yes,already,Yes,Clear,0.915,0.541,0.867,0.785
+11790,Yes,between_2_and_5_years,No,N/A,0.883,0.673,0.571,0.571
+11791,Yes,already,Yes,Clear,0.742,0.623,0.617,0.588
+11792,Yes,more_than_5_years,Yes,Clear,0.919,0.447,0.79,0.673
+11793,No,N/A,N/A,N/A,0.885,0.885,0.885,0.885
+11794,Yes,between_2_and_5_years,No,N/A,0.897,0.651,0.853,0.853
+11795,Yes,more_than_5_years,Yes,Clear,0.905,0.721,0.851,0.632
+11796,Yes,more_than_5_years,Yes,Clear,0.907,0.652,0.807,0.61
+11797,Yes,between_2_and_5_years,Yes,Not Clear,0.91,0.514,0.857,0.621
+11798,Yes,more_than_5_years,Yes,Clear,0.916,0.588,0.851,0.647
+11799,Yes,already,Yes,Clear,0.631,0.69,0.607,0.629
+11800,Yes,already,No,N/A,0.836,0.591,0.614,0.614
+11801,Yes,more_than_5_years,No,N/A,0.913,0.516,0.526,0.526
+11802,No,N/A,N/A,N/A,0.951,0.951,0.951,0.951
+11803,Yes,between_2_and_5_years,No,N/A,0.885,0.635,0.521,0.521
+11804,Yes,more_than_5_years,Yes,Clear,0.914,0.824,0.82,0.632
+11805,Yes,already,Yes,Clear,0.926,0.501,0.86,0.663
+11806,Yes,more_than_5_years,No,N/A,0.905,0.929,0.634,0.634
+11807,Yes,between_2_and_5_years,Yes,Not Clear,0.923,0.653,0.5,0.543
+11808,Yes,more_than_5_years,No,N/A,0.899,0.513,0.773,0.773
+11809,No,N/A,N/A,N/A,0.77,0.77,0.77,0.77
+11810,Yes,already,Yes,Not Clear,0.856,0.542,0.796,0.519
+11811,Yes,between_2_and_5_years,Yes,Clear,0.928,0.39,0.86,0.525
+11812,Yes,already,Yes,Clear,0.844,0.58,0.723,0.558
+11813,Yes,within_2_years,Yes,Clear,0.844,0.851,0.64,0.467
+11814,Yes,more_than_5_years,Yes,Clear,0.923,0.517,0.854,0.557
+11815,Yes,between_2_and_5_years,Yes,Clear,0.897,0.55,0.87,0.56
+11816,Yes,more_than_5_years,Yes,Not Clear,0.943,0.413,0.75,0.664
+11817,Yes,between_2_and_5_years,Yes,Clear,0.903,0.588,0.873,0.684
+11818,Yes,more_than_5_years,Yes,Not Clear,0.929,0.457,0.719,0.841
+11819,Yes,more_than_5_years,No,N/A,0.917,0.826,0.616,0.616
+11820,Yes,between_2_and_5_years,Yes,Not Clear,0.871,0.762,0.599,0.784
+11821,No,N/A,N/A,N/A,0.595,0.595,0.595,0.595
+11822,Yes,already,Yes,Clear,0.769,0.708,0.693,0.761
+11823,No,N/A,N/A,N/A,0.945,0.945,0.945,0.945
+11824,Yes,more_than_5_years,Yes,Clear,0.916,0.57,0.816,0.656
+11825,Yes,already,Yes,Clear,0.912,0.472,0.879,0.561
+11826,No,N/A,N/A,N/A,0.862,0.862,0.862,0.862
+11827,Yes,already,Yes,Clear,0.916,0.491,0.863,0.575
+11828,Yes,already,No,N/A,0.86,0.403,0.958,0.958
+11829,Yes,between_2_and_5_years,Yes,Not Clear,0.934,0.584,0.763,0.617
+11830,No,N/A,N/A,N/A,0.972,0.972,0.972,0.972
+11831,Yes,already,Yes,Clear,0.897,0.562,0.746,0.818
+11832,Yes,between_2_and_5_years,Yes,Clear,0.93,0.409,0.857,0.652
+11833,Yes,between_2_and_5_years,Yes,Clear,0.86,0.487,0.621,0.582
+11834,Yes,more_than_5_years,Yes,Not Clear,0.929,0.72,0.791,0.741
+11835,Yes,between_2_and_5_years,No,N/A,0.873,0.675,0.755,0.755
+11836,Yes,already,Yes,Clear,0.911,0.526,0.83,0.639
+11837,No,N/A,N/A,N/A,0.976,0.976,0.976,0.976
+11838,No,N/A,N/A,N/A,0.703,0.703,0.703,0.703
+11839,Yes,between_2_and_5_years,Yes,Not Clear,0.923,0.678,0.74,0.881
+11840,No,N/A,N/A,N/A,0.719,0.719,0.719,0.719
+11841,Yes,between_2_and_5_years,Yes,Not Clear,0.897,0.758,0.717,0.718
+11842,Yes,between_2_and_5_years,Yes,Not Clear,0.921,0.718,0.715,0.821
+11843,Yes,already,Yes,Not Clear,0.888,0.571,0.677,0.536
+11844,Yes,between_2_and_5_years,No,N/A,0.594,0.414,0.839,0.839
+11845,Yes,between_2_and_5_years,Yes,Not Clear,0.948,0.608,0.591,0.775
+11846,No,N/A,N/A,N/A,0.96,0.96,0.96,0.96
+11847,Yes,already,Yes,Clear,0.81,0.644,0.809,0.82
+11848,No,N/A,N/A,N/A,0.514,0.514,0.514,0.514
+11849,Yes,between_2_and_5_years,Yes,Clear,0.886,0.585,0.801,0.74
+11850,No,N/A,N/A,N/A,0.964,0.964,0.964,0.964
+11851,Yes,between_2_and_5_years,Yes,Not Clear,0.924,0.556,0.529,0.443
+11852,No,N/A,N/A,N/A,0.727,0.727,0.727,0.727
+11853,Yes,between_2_and_5_years,No,N/A,0.916,0.545,0.757,0.757
+11854,Yes,more_than_5_years,Yes,Not Clear,0.907,0.925,0.583,0.511
+11855,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11856,Yes,between_2_and_5_years,Yes,Clear,0.891,0.361,0.864,0.797
+11857,Yes,already,Yes,Not Clear,0.931,0.428,0.804,0.633
+11858,Yes,already,Yes,Clear,0.507,0.576,0.508,0.565
+11859,Yes,more_than_5_years,Yes,Not Clear,0.829,0.382,0.663,0.56
+11860,Yes,already,Yes,Clear,0.902,0.398,0.859,0.698
+11861,Yes,between_2_and_5_years,Yes,Not Clear,0.925,0.663,0.751,0.655
+11862,Yes,between_2_and_5_years,No,N/A,0.86,0.729,0.937,0.937
+11863,Yes,between_2_and_5_years,No,N/A,0.873,0.737,0.885,0.885
+11864,Yes,already,Yes,Clear,0.904,0.621,0.856,0.824
+11865,Yes,already,Yes,Clear,0.838,0.759,0.812,0.798
+11866,Yes,between_2_and_5_years,Yes,Clear,0.919,0.459,0.822,0.577
+11867,Yes,more_than_5_years,Yes,Not Clear,0.911,0.875,0.821,0.606
+11868,Yes,more_than_5_years,Yes,Clear,0.907,0.746,0.869,0.632
+11869,No,N/A,N/A,N/A,0.971,0.971,0.971,0.971
+11870,Yes,already,Yes,Clear,0.86,0.59,0.837,0.809
+11871,Yes,between_2_and_5_years,No,N/A,0.858,0.791,0.865,0.865
+11872,No,N/A,N/A,N/A,0.506,0.506,0.506,0.506
+11873,Yes,between_2_and_5_years,No,N/A,0.907,0.648,0.902,0.902
+11874,Yes,between_2_and_5_years,Yes,Clear,0.858,0.473,0.665,0.552
+11875,Yes,between_2_and_5_years,No,N/A,0.814,0.603,0.869,0.869
+11876,Yes,between_2_and_5_years,Yes,Clear,0.925,0.583,0.797,0.52
+11877,Yes,between_2_and_5_years,Yes,Not Clear,0.932,0.7,0.684,0.777
+11878,No,N/A,N/A,N/A,0.694,0.694,0.694,0.694
+11879,Yes,already,Yes,Clear,0.908,0.479,0.864,0.682
+11880,Yes,already,Yes,Clear,0.817,0.509,0.581,0.551
+11881,Yes,more_than_5_years,Yes,Not Clear,0.927,0.535,0.871,0.496
+11882,Yes,between_2_and_5_years,Yes,Not Clear,0.925,0.443,0.868,0.521
+11883,Yes,already,Yes,Clear,0.883,0.548,0.83,0.605
+11884,No,N/A,N/A,N/A,0.563,0.563,0.563,0.563
+11885,Yes,more_than_5_years,Yes,Clear,0.932,0.671,0.687,0.623
+11886,Yes,already,Yes,Not Clear,0.895,0.531,0.816,0.553
+11887,Yes,between_2_and_5_years,Yes,Clear,0.918,0.509,0.862,0.636
+11888,Yes,between_2_and_5_years,No,N/A,0.906,0.615,0.76,0.76
+11889,Yes,between_2_and_5_years,Yes,Not Clear,0.902,0.491,0.845,0.528
+11890,Yes,between_2_and_5_years,Yes,Not Clear,0.917,0.738,0.588,0.749
+11891,Yes,between_2_and_5_years,Yes,Not Clear,0.903,0.658,0.688,0.89
+11892,Yes,more_than_5_years,Yes,Not Clear,0.938,0.409,0.805,0.677
+11893,Yes,between_2_and_5_years,No,N/A,0.911,0.769,0.754,0.754
+11894,Yes,between_2_and_5_years,Yes,Clear,0.889,0.495,0.848,0.64
+11895,Yes,more_than_5_years,Yes,Not Clear,0.921,0.606,0.801,0.542
+11896,No,N/A,N/A,N/A,0.923,0.923,0.923,0.923
+11897,Yes,already,Yes,Clear,0.642,0.548,0.607,0.586
+11898,Yes,already,No,N/A,0.849,0.386,0.865,0.865
+11899,Yes,between_2_and_5_years,Yes,Not Clear,0.934,0.608,0.566,0.656
+11900,No,N/A,N/A,N/A,0.548,0.548,0.548,0.548
+11901,Yes,already,Yes,Not Clear,0.917,0.499,0.673,0.557
+11902,Yes,already,Yes,Clear,0.912,0.461,0.867,0.736
+11903,Yes,between_2_and_5_years,Yes,Not Clear,0.907,0.745,0.642,0.636
+11904,Yes,more_than_5_years,Yes,Not Clear,0.915,0.802,0.796,0.686
+11905,Yes,between_2_and_5_years,No,N/A,0.858,0.671,0.918,0.918
+11906,Yes,between_2_and_5_years,No,N/A,0.873,0.685,0.927,0.927
+11907,Yes,between_2_and_5_years,Yes,Clear,0.919,0.459,0.866,0.748
+11908,Yes,already,Yes,Clear,0.916,0.443,0.848,0.814
+11909,No,N/A,N/A,N/A,0.964,0.964,0.964,0.964
+11910,Yes,between_2_and_5_years,Yes,Clear,0.915,0.483,0.861,0.494
+11911,Yes,already,Yes,Clear,0.761,0.589,0.629,0.681
+11912,Yes,within_2_years,No,N/A,0.848,0.629,0.909,0.909
+11913,Yes,already,Yes,Clear,0.832,0.734,0.567,0.424
+11914,Yes,already,Yes,Clear,0.912,0.468,0.835,0.747
+11915,Yes,between_2_and_5_years,Yes,Not Clear,0.889,0.576,0.835,0.607
+11916,Yes,between_2_and_5_years,No,N/A,0.928,0.785,0.602,0.602
+11917,Yes,already,Yes,Clear,0.884,0.607,0.574,0.437
+11918,No,N/A,N/A,N/A,0.502,0.502,0.502,0.502
+11919,Yes,more_than_5_years,Yes,Clear,0.922,0.391,0.868,0.733
+11920,Yes,already,Yes,Clear,0.92,0.522,0.775,0.575
+11921,Yes,already,Yes,Clear,0.85,0.643,0.813,0.736
+11922,Yes,between_2_and_5_years,Yes,Not Clear,0.895,0.659,0.683,0.676
+11923,Yes,more_than_5_years,Yes,Clear,0.889,0.598,0.827,0.677
+11924,No,N/A,N/A,N/A,0.976,0.976,0.976,0.976
+11925,Yes,already,Yes,Clear,0.887,0.477,0.802,0.681
+11926,Yes,already,Yes,Clear,0.905,0.511,0.867,0.692
+11927,Yes,between_2_and_5_years,Yes,Not Clear,0.901,0.816,0.635,0.605
+11928,No,N/A,N/A,N/A,0.942,0.942,0.942,0.942
+11929,Yes,already,Yes,Clear,0.911,0.556,0.827,0.75
+11930,Yes,between_2_and_5_years,No,N/A,0.776,0.664,0.825,0.825
+11931,Yes,between_2_and_5_years,Yes,Clear,0.915,0.542,0.865,0.746
+11932,Yes,between_2_and_5_years,No,N/A,0.863,0.623,0.939,0.939
+11933,Yes,between_2_and_5_years,Yes,Not Clear,0.927,0.622,0.531,0.629
+11934,Yes,between_2_and_5_years,Yes,Not Clear,0.891,0.756,0.704,0.538
+11935,Yes,between_2_and_5_years,No,N/A,0.7,0.622,0.529,0.529
+11936,Yes,within_2_years,Yes,Clear,0.89,0.859,0.684,0.7
+11937,Yes,more_than_5_years,Yes,Not Clear,0.927,0.746,0.667,0.608
+11938,Yes,between_2_and_5_years,Yes,Clear,0.926,0.496,0.821,0.619
+11939,Yes,between_2_and_5_years,Yes,Not Clear,0.91,0.521,0.805,0.696
+11940,Yes,already,Yes,Not Clear,0.917,0.424,0.663,0.845
+11941,Yes,already,Yes,Clear,0.87,0.614,0.83,0.573
+11942,Yes,between_2_and_5_years,Yes,Clear,0.894,0.534,0.82,0.716
+11943,Yes,between_2_and_5_years,Yes,Not Clear,0.915,0.651,0.721,0.528
+11944,Yes,more_than_5_years,Yes,Clear,0.907,0.717,0.846,0.631
+11945,Yes,more_than_5_years,Yes,Not Clear,0.916,0.461,0.616,0.588
+11946,Yes,between_2_and_5_years,Yes,Clear,0.91,0.381,0.872,0.725
+11947,Yes,more_than_5_years,Yes,Not Clear,0.934,0.535,0.548,0.795
+11948,No,N/A,N/A,N/A,0.954,0.954,0.954,0.954
+11949,Yes,already,Yes,Clear,0.911,0.525,0.862,0.728
+11950,Yes,already,Yes,Not Clear,0.909,0.482,0.498,0.419
+11951,Yes,more_than_5_years,Yes,Clear,0.918,0.556,0.827,0.683
+11952,Yes,between_2_and_5_years,Yes,Not Clear,0.904,0.815,0.72,0.787
+11953,Yes,already,Yes,Clear,0.875,0.614,0.826,0.609
+11954,Yes,more_than_5_years,Yes,Clear,0.914,0.555,0.804,0.606
+11955,Yes,between_2_and_5_years,Yes,Clear,0.912,0.542,0.871,0.655
+11956,Yes,more_than_5_years,Yes,Not Clear,0.935,0.397,0.777,0.725
+11957,Yes,more_than_5_years,Yes,Clear,0.925,0.394,0.859,0.613
+11958,Yes,between_2_and_5_years,Yes,Clear,0.907,0.466,0.841,0.586
+11959,Yes,between_2_and_5_years,Yes,Clear,0.908,0.508,0.882,0.703
+11960,Yes,between_2_and_5_years,Yes,Not Clear,0.933,0.78,0.549,0.703
+11961,No,N/A,N/A,N/A,0.949,0.949,0.949,0.949
+11962,Yes,more_than_5_years,Yes,Clear,0.925,0.604,0.847,0.492
+11963,Yes,already,Yes,Clear,0.912,0.469,0.878,0.575
+11964,Yes,between_2_and_5_years,Yes,Not Clear,0.907,0.579,0.853,0.555
+11965,Yes,more_than_5_years,Yes,Clear,0.914,0.734,0.847,0.73
+11966,No,N/A,N/A,N/A,0.969,0.969,0.969,0.969
+11967,Yes,already,No,N/A,0.92,0.421,0.775,0.775
+11968,Yes,more_than_5_years,Yes,Clear,0.923,0.635,0.855,0.503
+11969,Yes,already,No,N/A,0.877,0.567,0.863,0.863
+11970,Yes,already,Yes,Clear,0.781,0.618,0.667,0.517
+11971,No,N/A,N/A,N/A,0.974,0.974,0.974,0.974
+11972,Yes,more_than_5_years,Yes,Clear,0.937,0.549,0.787,0.485
+11973,No,N/A,N/A,N/A,0.55,0.55,0.55,0.55
+11974,Yes,between_2_and_5_years,No,N/A,0.865,0.639,0.956,0.956
+11975,Yes,between_2_and_5_years,Yes,Clear,0.908,0.387,0.835,0.841
+11976,Yes,already,Yes,Not Clear,0.902,0.607,0.637,0.525
+11977,Yes,between_2_and_5_years,Yes,Not Clear,0.897,0.473,0.857,0.504
+11978,Yes,more_than_5_years,No,N/A,0.86,0.367,0.904,0.904
+11979,Yes,between_2_and_5_years,Yes,Not Clear,0.926,0.679,0.675,0.613
+11980,No,N/A,N/A,N/A,0.972,0.972,0.972,0.972
+11981,No,N/A,N/A,N/A,0.97,0.97,0.97,0.97
+11982,Yes,more_than_5_years,Yes,Clear,0.911,0.631,0.776,0.684
+11983,Yes,between_2_and_5_years,No,N/A,0.857,0.704,0.583,0.583
+11984,Yes,already,Yes,Clear,0.845,0.572,0.819,0.797
+11985,Yes,between_2_and_5_years,Yes,Clear,0.923,0.491,0.826,0.528
+11986,Yes,between_2_and_5_years,No,N/A,0.898,0.617,0.854,0.854
+11987,Yes,between_2_and_5_years,Yes,Not Clear,0.938,0.403,0.767,0.771
+11988,Yes,more_than_5_years,Yes,Not Clear,0.905,0.806,0.793,0.525
+11989,No,N/A,N/A,N/A,0.962,0.962,0.962,0.962
+11990,Yes,already,Yes,Clear,0.607,0.446,0.547,0.582
+11991,No,N/A,N/A,N/A,0.973,0.973,0.973,0.973
+11992,Yes,more_than_5_years,Yes,Clear,0.923,0.77,0.804,0.557
+11993,Yes,between_2_and_5_years,No,N/A,0.866,0.708,0.94,0.94
+11994,Yes,between_2_and_5_years,Yes,Clear,0.898,0.703,0.803,0.633
+11995,Yes,already,Yes,Clear,0.87,0.593,0.771,0.749
+11996,Yes,more_than_5_years,Yes,Clear,0.918,0.393,0.861,0.656
+11997,No,N/A,N/A,N/A,0.648,0.648,0.648,0.648
+11998,Yes,more_than_5_years,Yes,Not Clear,0.914,0.844,0.702,0.714
+11999,Yes,already,Yes,Not Clear,0.916,0.498,0.854,0.531
+12000,Yes,more_than_5_years,Yes,Clear,0.912,0.764,0.839,0.62
