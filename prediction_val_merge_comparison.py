@@ -9,13 +9,13 @@ from sklearn.metrics import f1_score
 # 設定
 # =========================================
 
-WEEK="week15"
-BASE_DIR = f"dataset/{WEEK}/"
+
+BASE_DIR = f"dataset/test_prediction/"
 VAL_FILE = f"dataset/vpesg4k_val_1000.json"
-pBERT= f"bert/1"
-pLLM=f"LLM/1"
-PRED1_FILE = f"{BASE_DIR}/{pBERT}/bert_prediction.csv"
-PRED2_FILE = f"{BASE_DIR}/{pLLM}/week15_val1000_confidence.csv"
+pBERT= f"6-11/bert/4-0.5812947"
+pLLM=f"6-12/LLM/1-0.5487401"
+PRED1_FILE = f"{BASE_DIR}/{pBERT}/test_prediction_with_confidence.csv"
+PRED2_FILE = f"{BASE_DIR}/{pLLM}/test_prediction_with_confidence.csv"
 PRED3_FILE = f"{BASE_DIR}/merge/{pBERT} merge {pLLM}/prediction_merged.csv"
 
 
@@ -375,7 +375,6 @@ def main():
 
     out_file = Path(PRED3_FILE)
     
-    # 這行會自動建立 dataset/week15/merge/{pBERT} and {pLLM}/ 這層資料夾
     out_file.parent.mkdir(parents=True, exist_ok=True)
 
     output_df.to_csv(
