@@ -1,0 +1,8 @@
+0.5892359
+49/108
+
+evidence_quality : 0.4154
+evidence_status : 0.6718
+promise_status : 0.7778
+verification_timeline : 0.5785
+weighted_score : 0.5892

@@ -10,17 +10,23 @@ from sklearn.metrics import f1_score
 # =========================================
 BASE_DIR = f"dataset/test_prediction/"
 VAL_FILE = f"dataset/vpesg4k_val_1000.json"
-pBERT = f"6-11/bert/4-0.5812947"
-pLLM = f"6-12/LLM/1-0.5487401"
+pBERT = f"6-13/bert/1-0.5938826"
+pLLM = f"6-14/LLM/1-0.5892359"
 PRED1_FILE = f"{BASE_DIR}/{pBERT}/test_prediction_with_confidence.csv"
 PRED2_FILE = f"{BASE_DIR}/{pLLM}/test_prediction_with_confidence.csv"
-PRED3_FILE = f"{BASE_DIR}/merge/BERT 6-11-4 merge LLM 6-12-1/prediction_merged.csv"
+PRED3_FILE = f"{BASE_DIR}/merge/BERT 6-13-1 merge LLM 6-14-1/prediction_merged.csv"
 
 FIELDS = [
     "promise_status",
     "verification_timeline",
     "evidence_status",
     "evidence_quality"
+]
+
+MERGE_FIELDS = [
+    "promise_status",
+    "verification_timeline",
+    "evidence_status",
 ]
 WEIGHTS = [0.2, 0.15, 0.3, 0.35]
 CONF_MARGIN = 0.05
@@ -90,22 +96,27 @@ def merge_predictions(pred1_dict, pred2_dict):
         # 內部欄位選擇函數
         def choose_field(field):
             value1 = obj1.get(field, DEFAULT_LABELS[field])
+
+            # 不在 merge 清單內，直接使用 pred1
+            if field not in MERGE_FIELDS:
+                return value1, False
+
             value2 = obj2.get(field)
-            
-            # 防禦：處理 Pandas 讀取 CSV 時可能產生的 NaN
-            if pd.isna(value1): 
+
+            if pd.isna(value1):
                 value1 = DEFAULT_LABELS[field]
-            if pd.isna(value2): 
+            if pd.isna(value2):
                 value2 = None
-            
+
             if value2 is None or value1 == value2:
-                return value1, False  # 回傳值與「是否觸發LLM更新」的標記
-                
+                return value1, False
+
             conf1 = float(obj1.get(f"{field}_confidence", 0.0))
             conf2 = float(obj2.get(f"{field}_confidence", 0.0))
-            
+
             if conf2 - conf1 > CONF_MARGIN:
                 return value2, True
+
             return value1, False
 
         # -----------------------------------------
