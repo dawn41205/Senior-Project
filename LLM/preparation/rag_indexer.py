@@ -5,15 +5,19 @@ from sentence_transformers import SentenceTransformer
 from rank_bm25 import BM25Okapi
 import jieba
 import pickle
+import torch
 from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
 
-INPUT_JSON = "vpesg4k_train_1000_enhanced.json"
-FALLBACK_JSON = "vpesg4k_train_1000.json"
+INPUT_JSON = os.environ.get("RAG_INDEX_INPUT", "merge/train_grouped_enhanced.json")
+FALLBACK_JSON = os.environ.get("RAG_INDEX_FALLBACK", "merge/train_grouped.json")
 
-CHROMA_DB_DIR = "chroma_db"
-BM25_INDEX_PATH = "bm25_index.pkl"
+CHROMA_DB_DIR = os.environ.get("RAG_CHROMA_DB_DIR", "chroma_db_split")
+BM25_INDEX_PATH = os.environ.get("RAG_BM25_INDEX", "bm25_index_split.pkl")
+ALLOW_LABEL_FEATURES = False
+RAG_INDEX_DEVICE = os.environ.get("RAG_INDEX_DEVICE") or ("cuda" if torch.cuda.is_available() else "cpu")
+RAG_INDEX_BATCH_SIZE = int(os.environ.get("RAG_INDEX_BATCH_SIZE", "8"))
 
 def main():
     print("啟動混合式知識庫建置 (ChromaDB Vector + BM25 Lexical) ...")
@@ -34,8 +38,8 @@ def main():
         data = json.load(f)
         
     print("\n[1/4] 載入 SentenceTransformer 模型 (BAAI/bge-m3)...")
-    # 強制使用 CPU 以避免 RTX 4060 (8GB) 顯存溢出
-    encoder = SentenceTransformer("BAAI/bge-m3", device="cpu")
+    print(f"  - device={RAG_INDEX_DEVICE}, batch_size={RAG_INDEX_BATCH_SIZE}")
+    encoder = SentenceTransformer("BAAI/bge-m3", device=RAG_INDEX_DEVICE)
     
     print("[2/4] 初始化 ChromaDB 持久化資料庫...")
     client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
@@ -56,17 +60,20 @@ def main():
     
     for item in tqdm(data, desc="Text processing"):
         doc_id = str(item['id'])
-        company = item['company']
+        company = item.get('company', '')
         
         # 使用多模態抽取的 Markdown，若無則降級為原始純文字
         text_content = item.get('gemini_extracted_text', "")
         if not text_content:
             text_content = item.get('data', "")
             
-        promise_str = item.get('promise_string', "")
+        promise_str = item.get('promise_string', "") if ALLOW_LABEL_FEATURES else ""
         
         # 組合作為檢索基底的文本 (讓承諾和上下文都被涵蓋進去)
-        full_text = f"承諾：{promise_str}\n\n報告內文：\n{text_content}"
+        if promise_str:
+            full_text = f"承諾：{promise_str}\n\n報告內文：\n{text_content}"
+        else:
+            full_text = f"報告內文：\n{text_content}"
         
         ids.append(doc_id)
         documents.append(full_text)
@@ -75,6 +82,8 @@ def main():
         metadatas.append({
             "id": item['id'],
             "company": company,
+            "source_url": item.get("pdf_url") or item.get("URL") or "",
+            "page_number": item.get("page_number", ""),
             "promise_status": item.get('promise_status', ''),
             "verification_timeline": item.get('verification_timeline', ''),
             "evidence_status": item.get('evidence_status', ''),
@@ -86,8 +95,8 @@ def main():
         tokenized_corpus.append(tokens)
 
     print("\n[4/4] 執行 BGE-M3 向量嵌入並寫入資料庫...")
-    # 在 8GB VRAM 限制下，適當控制 batch_size 以防 OOM
-    batch_size = 32
+    # 8GB VRAM 使用小 batch；可用 RAG_INDEX_BATCH_SIZE 覆蓋。
+    batch_size = RAG_INDEX_BATCH_SIZE
     
     for i in tqdm(range(0, len(ids), batch_size), desc="ChromaDB Embedding & Upsert"):
         batch_ids = ids[i:i+batch_size]
@@ -104,7 +113,7 @@ def main():
             embeddings=batch_embeddings
         )
         
-    print(f"  ► ChromaDB 建置成功！資料庫擁有 {collection.count()} 筆向量記錄。")
+    print(f"  - ChromaDB 建置成功！資料庫擁有 {collection.count()} 筆向量記錄。")
     
     print("\n同場加映：建構 BM25 稀疏矩陣 (Lexical Search) ...")
     bm25 = BM25Okapi(tokenized_corpus)
@@ -119,8 +128,8 @@ def main():
     with open(BM25_INDEX_PATH, "wb") as f:
         pickle.dump(bm25_store, f)
         
-    print(f"  ► BM25 Index 已儲存至 {BM25_INDEX_PATH}。")
-    print("\n[Done] 混合檢索 (Hybrid Indexing) 完成！")
+    print(f"  - BM25 Index 已儲存至 {BM25_INDEX_PATH}。")
+    print("\n[Done] 混合檢索 (Hybrid Indexing) 完成！您隨時可以供 RAG 進行精確查詢與防呆避嫌過濾。")
 
 if __name__ == "__main__":
     main()

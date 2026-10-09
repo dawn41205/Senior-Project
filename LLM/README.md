@@ -1,137 +1,98 @@
-# ESG Promise Verification — 完整管線專案
+# ESG 承諾驗證：BERT＋RAG/LLM 核心程式
 
-## 📋 專案概述
+本資料夾整理專題系統的核心處理程式：PDF 抽文、正式輸入整理、BERT PS／ES 分類、相關案例檢索、LLM VT／EQ 判斷，以及結果一致性與信心分數輸出。
 
-本專案為 **VeriPromiseESG 2026** 競賽的完整管線，需預測四個欄位：
+整理日期：2026-10-09。來源為專題目前使用的 `main_pipeline.py`、`rag_inference.py` 及其必要相依模組。這次僅整理原始碼並進行靜態核對，沒有執行訓練、推論、API 呼叫或評分，沒有新的執行成功或分數證據。
 
-| 欄位 | 說明 | 類別 | 負責模組 | 權重 |
-|------|------|------|----------|------|
-| `promise_status` (PS) | 是否有承諾 | Yes / No | **BERT 分類器** | 0.20 |
-| `verification_timeline` (VT) | 承諾時程 | already / within_2_years / between_2_and_5_years / longer_than_5_years / N/A | **RAG + LLM** | 0.15 |
-| `evidence_status` (ES) | 是否有證據 | Yes / No / N/A | **BERT 分類器** | 0.30 |
-| `evidence_quality` (EQ) | 證據品質 | Clear / Not Clear / Misleading / N/A | **RAG + LLM** | 0.35 |
+## 資料夾內容
 
-**最終評分公式**：`0.2×PS + 0.15×VT + 0.3×ES + 0.35×EQ` (Weighted Macro F1)
-
----
-
-## 🗂 檔案說明
-
-### 資料檔案
-
-| 檔案 | 說明 |
-|------|------|
-| `vpesg4k_train_1000.json` | 競賽原始資料集，1000 筆 ESG 報告段落，每筆包含 `data`（內文）、`promise_string`（承諾字串）、四個標籤欄位、`pdf_url` 等 |
-| `vpesg4k_train_1000_enhanced.json` | 增強版資料集。在原始資料的基礎上，每筆多了一個 `gemini_extracted_text` 欄位，這是用 Gemini API 對 PDF 頁面「看圖轉文字」的結果（包含表格 Markdown 格式），比原始 `data` 欄位內容更豐富精準。**RAG 索引就是用這個欄位建的** |
-
-### 預建 RAG 資源（不需重建，直接使用）
-
-| 檔案 | 說明 |
-|------|------|
-| `chroma_db/` | ChromaDB 向量資料庫。使用 `BAAI/bge-m3` 模型對全部 1000 筆資料做向量嵌入，供 RAG 檢索時做「語意搜尋」（找意思最接近的段落） |
-| `bm25_index.pkl` | BM25 關鍵字索引。使用 jieba 中文斷詞後建立的稀疏矩陣，供 RAG 檢索時做「關鍵字搜尋」（找包含相同詞彙的段落）。與 `chroma_db` 搭配使用，兩者合稱「混合檢索」 |
-
-### 程式碼
-
-| 檔案 | 說明 |
-|------|------|
-| `data_splitter.py` | 資料切分腳本。將 1000 筆切成 800 訓練 + 200 測試，使用 `train_test_split(test_size=0.2, random_state=42)`，與官方 baseline 完全一致 |
-| `train_bert_dual.py` | **BERT 訓練腳本**。使用 `ckiplab/bert-base-chinese` 全量微調，同時訓練 PS 和 ES 兩個分類器。內建 WeightedTrainer 處理類別不平衡、斷點續訓等功能 |
-| `main_pipeline.py` | **主管線**。整合 BERT (PS+ES) 與 RAG (VT+EQ) 的推論結果，套用後處理防呆規則，計算最終加權 F1 分數，並產出 `prediction.json` 提交檔 |
-| `rag_inference.py` | **RAG 推論模組**。負責 VT 和 EQ 兩個欄位。流程：混合檢索相似段落 → 組裝 Prompt → 呼叫 Gemma-4-31b-it API → 解析回應。內建 SQLite 斷點保護，中斷後可續跑 |
-| `rag_indexer.py` | **RAG 知識庫建置腳本**。讀取增強版資料集，用 BGE-M3 做向量嵌入存入 ChromaDB，同時用 jieba 斷詞建立 BM25 索引。**已預先跑過，一般不需要重跑**，除非你修改了資料集 |
-| `pdf_gemini_parser.py` | **PDF 萃取腳本**。從每筆資料的 `pdf_url` 下載 PDF 頁面，用 Gemini 多模態 API 辨識圖片中的文字（含表格），產出 `vpesg4k_train_1000_enhanced.json`。**已預先跑過，一般不需要重跑** |
-
----
-
-## 🚀 執行步驟
-
-### Step 0: 安裝依賴
-```bash
-pip install transformers datasets scikit-learn torch pandas
-pip install chromadb sentence-transformers rank_bm25 jieba
-pip install google-generativeai peft matplotlib
+```text
+LLM/
+├── README.md
+├── requirements.txt
+├── inference/
+│   ├── main_pipeline.py
+│   ├── rag_inference.py
+│   ├── bert_thresholds.py
+│   ├── eq_guideline_adjudicator.py
+│   ├── esg_consistency.py
+│   └── prediction_confidence.py
+└── preparation/
+    ├── pdf_gemini_parser.py
+    ├── make_formal_input.py
+    ├── rag_indexer.py
+    ├── train_bert_fold_models.py
+    └── week13_fold_utils.py
 ```
 
-### Step 1: 切分資料集
-```bash
-python data_splitter.py
+### inference：核心推論與輸出
+
+| 檔案 | 用途 |
+|---|---|
+| `main_pipeline.py` | BERT 分別判斷承諾狀態 PS 與證據狀態 ES；呼叫 RAG/LLM 取得 VT／EQ；整合結果、套用一致性規則並輸出 JSON、CSV 與信心分數。 |
+| `rag_inference.py` | BGE-M3／ChromaDB 向量檢索，BM25 補充；建立提示、呼叫 LLM、解析標籤與信心分數；SQLite 快取、重試與呼叫額度控制。 |
+| `bert_thresholds.py` | 從原始模組節錄既有的門檻分類函式；未配置門檻時選擇最高機率類別。不包含門檻搜尋或校準 CLI。 |
+| `eq_guideline_adjudicator.py` | 節錄既有證據品質規則與所需定義，供 RAG 流程使用；移除研究重播、評分與批次實驗 CLI。 |
+| `esg_consistency.py` | 處理 PS／ES 與後續欄位間的邏輯一致性，例如非承諾資料的後續欄位使用 N/A。 |
+| `prediction_confidence.py` | 信心分數範圍限制、格式正規化，以及 JSON／CSV 輸出。信心分數是模型／解析器訊號，不等同經校準的正確機率。 |
+
+### preparation：前置處理與資源建置
+
+| 檔案 | 用途 |
+|---|---|
+| `pdf_gemini_parser.py` | 下載已切割的單頁 PDF、轉成影像，使用多模態 LLM 抽取文字與 Markdown 表格，保存 SQLite 快取並產生含 `gemini_extracted_text` 的 JSON。既有實作讀取 PDF 第 0 頁，不是完整 PDF 的任意頁選取器。 |
+| `make_formal_input.py` | 只保留允許的輸入欄位，移除答案與人工標註欄位。 |
+| `rag_indexer.py` | 從訓練案例建立 BGE-M3／ChromaDB 與 jieba／BM25 索引。答案特徵開關固定關閉；訓練案例標籤可作為檢索範例的 metadata。 |
+| `train_bert_fold_models.py` | 分別訓練 PS／ES 分類模型；模型選擇使用訓練資料內部 dev，不使用外部驗證／測試答案。 |
+| `week13_fold_utils.py` | 訓練程式必要的分層內部 dev 切分工具；保留原名稱以維持匯入相容性。 |
+
+## 核心資料流
+
+PDF 抽文與正式輸入整理 → BERT PS／ES 分類 → RAG 取回訓練案例 → LLM VT／EQ 判斷 → 合併、標籤正規化與一致性檢查 → 預測與信心分數輸出。
+
+PS 讀取原始 `data`；ES 讀取 `data` 與非重複的 PDF 抽取文字。RAG 查詢與 LLM 提示使用原始輸入及相關訓練案例。向量檢索優先，案例不足時使用 BM25 補充。
+
+## 整理範圍與版本界線
+
+- 推論入口只保留 BERT＋RAG/LLM 主路徑；移除舊 QLoRA 回退、煙霧測試捷徑、答案特徵分支、評分繪圖與 Codex 報告入口，以及重複初始化／寫檔敘述。
+- 既有 BERT 推論、RAG、提示、解析、EQ 規則、一致性及信心分數的判斷邏輯未新增研究規則。RAG 原有提示相容分支仍保留；建議使用下表中的結構化輸出設定。
+- 本資料夾展示專題核心，不包含後續競賽研究的多模型集成、selector、快取 action replay 或最後提交包組裝；不能單靠本資料夾宣稱重現最後一次競賽提交 CSV。
+- 不包含資料集、模型權重、adapter、PDF、BM25 索引成品、ChromaDB／SQLite 快取、預測檔、圖表、報告、測試碼、日誌、AGENTS 文件或金鑰。
+
+## 外部資源與設定
+
+`requirements.txt` 列出原始碼引用的套件；版本未鎖定，本次未安裝或驗證套件相容性。Python 建議使用既有專題環境。BERT 模型權重、訓練資料、RAG 索引與 API 金鑰需另外準備，均不隨此資料夾上傳。
+
+以下命令僅供使用說明，本次沒有執行：
+
+```powershell
+python -m pip install -r requirements.txt
+python preparation/make_formal_input.py --input <增強輸入.json> --output <正式輸入.json>
+python preparation/train_bert_fold_models.py --train <訓練資料.json> --output-root artifacts/bert
+python preparation/rag_indexer.py
+python inference/main_pipeline.py
 ```
-產生 `train_grouped.json` (800 筆) 和 `val_grouped.json` (200 筆)。
 
-### Step 2: 訓練 BERT 分類器 (PS + ES)
-```bash
-python train_bert_dual.py
-```
-- 產生 `./bert_ps_model/` 和 `./bert_es_model/`
-- 約需 5-6 分鐘 (RTX 4060)
+從 `LLM` 資料夾執行時，下列資源路徑需指向實際外部檔案。各資料夾內必要的本地相依模組已一起保留。
 
-### Step 3: 設定 Gemini API Key
-```bash
-# Windows PowerShell
-$env:GEMINI_API_KEY = "你的API_KEY"
+| 環境變數 | 用途／建議值 |
+|---|---|
+| `INPUT_FILE` | `make_formal_input.py` 產生的正式輸入 JSON。 |
+| `BERT_PS_MODEL_DIR` / `BERT_ES_MODEL_DIR` | PS／ES 模型目錄；缺少模型時入口會報錯。 |
+| `BERT_THRESHOLD_FILE` | 既有模型門檻 JSON，可選；留空時使用最高機率。 |
+| `RAG_INDEX_INPUT` / `RAG_INDEX_FALLBACK` | RAG 索引建置使用的訓練資料；驗證時必須只使用該 split 的 train。 |
+| `RAG_CHROMA_DB_DIR` / `RAG_BM25_INDEX` | 建置與推論需使用同一組 ChromaDB／BM25 路徑。 |
+| `GEMINI_API_KEY` | 只透過程序環境提供，勿寫入程式、README 或 Git。 |
+| `GEMINI_MODEL_NAME` | 使用原專題環境中可用的模型名稱；本次未檢查 API 可用性。 |
+| `RAG_STRUCTURED_OUTPUT` | 建議 `1`，使用既有結構化提示與輸出。 |
+| `GEMINI_MAX_OUTPUT_TOKENS` | 既有 Week15 配置使用 `1200`。 |
+| `GEMINI_MIN_INTERVAL_SECONDS` | 既有配置使用 `4.2`。 |
+| `RAG_REQUIRE_COMPLETE` | 建議 `1`，快取缺少結果時報錯。 |
+| `ENABLE_VT_EQ_POSTPROCESS` | 預設 `0`；是否啟用既有規則應沿用所選原始執行配置。 |
+| `OUTPUT_FILE` / `OUTPUT_CSV` | 預測 JSON／CSV 路徑；輸出父目錄需事先存在。 |
+| `WRITE_CONFIDENCE_OUTPUT` | 預設 `1`，另輸出四欄信心分數。 |
+| `PDF_INPUT_JSON` / `PDF_OUTPUT_JSON` / `PDF_CACHE_DB` | PDF 前置抽文的輸入、增強 JSON 與快取路徑。 |
 
-# Linux / Mac
-export GEMINI_API_KEY="你的API_KEY"
-```
-申請位置：https://aistudio.google.com/apikey （免費版即可）
+推論輸入只使用 `id`、`data`、`URL`／`pdf_url`、`page_number` 與可重現的 `gemini_extracted_text`。推論入口不讀取 `TRUTH_FILE`，也不執行答案評分；訓練資料標籤僅用於模型訓練與建立訓練案例庫。
 
-### Step 4: 執行完整管線
-```bash
-python main_pipeline.py
-```
-流程：
-1. BERT 推論 PS → 約 2 秒
-2. BERT 推論 ES → 約 2 秒
-3. RAG + Gemma-4-31b-it 推論 VT/EQ → 約 40-60 分鐘（免費 API 有限速）
-4. 合併結果 + 後處理規則 + 計算加權 F1
-
-產出：
-- `prediction.json` — 最終預測結果（提交用）
-- `reasoning_log.json` — LLM 推理過程記錄
-- `f1_scores_comparison.png` — 與 Baseline 的對比圖
-
----
-
-## ⚠️ 重要技術筆記
-
-### 1. PS 模型的 Data Leakage 陷阱
-> **promise_string 有值 ↔ promise_status=Yes，是 100% 一對一映射！**
-
-- PS 訓練/推論時**只能看 `data` 內文**，絕對禁止輸入 `promise_string`
-- 如果輸入 promise_string，會達到 100% 準確率，但在比賽隱藏測試集上會崩盤
-- `train_bert_dual.py` 第 84 行和 `main_pipeline.py` 第 122 行已有防護邏輯
-
-### 2. ES 模型可以使用 promise_string
-- ES 的任務是判斷「承諾是否有被執行」，需要同時看承諾內容和報告內文
-- 輸入格式：`"承諾：{promise_string}\n\n報告內容：{data}"`
-- N/A 類別的 promise_string 全為空 → BERT 自然學到此規律，這是合法的
-
-### 3. ES 的 class_weight 設定
-- `No` 類別只有約 18% 的樣本量，使用 balanced 公式只給 ~2.7x 不夠
-- 手動設了 `weight=8.0` 來加強 No 的召回率（目前約 57%）
-- 你可以調整此數值觀察效果
-
-### 4. 後處理防呆規則（main_pipeline.py 第 221-230 行）
-```
-如果 PS == No → VT、ES、EQ 全部強制設為 N/A
-如果 ES == No → EQ 強制設為 N/A
-```
-這是基於任務邏輯的硬規則，不論模型怎麼預測都會被覆蓋。
-
-### 5. RAG 斷點續跑機制
-- 推論結果即時存入 `inference_cache.db`（SQLite）
-- 中途斷線只需重跑 `main_pipeline.py`，會自動跳過已完成的筆數
-- 如需全部重新推論，刪除 `inference_cache.db` 即可
-
-### 6. RAG 知識庫重建
-- `chroma_db/` + `bm25_index.pkl` 已預先建好，可直接使用
-- 若修改了資料集或想重建：`python rag_indexer.py`
-- 索引使用的 Embedding 模型是 `BAAI/bge-m3`
-
-
-## 🔧 比賽正式提交前
-1. 將 `data_splitter.py` 中的 `test_size` 改為 `0`，使用全部 1000 筆做訓練
-2. 重跑 `train_bert_dual.py` 全量訓練
-3. 用比賽提供的隱藏測試集替換 `val_grouped.json`
-4. 刪除 `inference_cache.db` 後重跑 `main_pipeline.py`
+CSV 標準欄位為 `id,promise_status,verification_timeline,evidence_status,evidence_quality`；信心分數版本另含四個對應的 `*_confidence` 欄位。舊時間標籤 `longer_than_5_years` 正規化為 `more_than_5_years`，不適用欄位輸出 `N/A`。
